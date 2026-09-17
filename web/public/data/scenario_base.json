@@ -1,0 +1,5409 @@
+{
+  "speed_mpm": 80.4672,
+  "headline_minutes": 15,
+  "total_population": 638635,
+  "residents_within_15": 308758,
+  "pct_within_15": 48.3,
+  "points": [
+    {
+      "GEOID": "261635417003",
+      "population": 489,
+      "walk_minutes": 27.271711118565683,
+      "within_15": false,
+      "origin_node": 62875205,
+      "lat": 42.4395665,
+      "lon": -83.27269829321384
+    },
+    {
+      "GEOID": "261635170002",
+      "population": 983,
+      "walk_minutes": 5.586626746622722,
+      "within_15": true,
+      "origin_node": 7016963635,
+      "lat": 42.341553,
+      "lon": -83.03783075511197
+    },
+    {
+      "GEOID": "261635223003",
+      "population": 19,
+      "walk_minutes": 18.929531509320952,
+      "within_15": false,
+      "origin_node": 5930170447,
+      "lat": 42.3560695,
+      "lon": -83.10535450350713
+    },
+    {
+      "GEOID": "261635057005",
+      "population": 871,
+      "walk_minutes": 9.23472351685613,
+      "within_15": true,
+      "origin_node": 14030481946,
+      "lat": 42.3979125,
+      "lon": -83.00151898647758
+    },
+    {
+      "GEOID": "261635418002",
+      "population": 1419,
+      "walk_minutes": 11.568440580196686,
+      "within_15": true,
+      "origin_node": 7019141465,
+      "lat": 42.431371,
+      "lon": -83.28254595714549
+    },
+    {
+      "GEOID": "261635363002",
+      "population": 861,
+      "walk_minutes": 24.242258538893672,
+      "within_15": false,
+      "origin_node": 62861745,
+      "lat": 42.403953,
+      "lon": -83.1500298851278
+    },
+    {
+      "GEOID": "261635448001",
+      "population": 551,
+      "walk_minutes": 35.670399632426616,
+      "within_15": false,
+      "origin_node": 8402772122,
+      "lat": 42.3893505,
+      "lon": -83.25406339832986
+    },
+    {
+      "GEOID": "261635462011",
+      "population": 2276,
+      "walk_minutes": 34.73002683015339,
+      "within_15": false,
+      "origin_node": 8387935427,
+      "lat": 42.3453385,
+      "lon": -83.25926450527649
+    },
+    {
+      "GEOID": "261635462012",
+      "population": 1196,
+      "walk_minutes": 35.578917765618755,
+      "within_15": false,
+      "origin_node": 9403829960,
+      "lat": 42.3524405,
+      "lon": -83.26252206205086
+    },
+    {
+      "GEOID": "261635433004",
+      "population": 831,
+      "walk_minutes": 31.53929079061676,
+      "within_15": false,
+      "origin_node": 6110840455,
+      "lat": 42.382245,
+      "lon": -83.22700731095989
+    },
+    {
+      "GEOID": "261635471004",
+      "population": 491,
+      "walk_minutes": 14.538536554694861,
+      "within_15": true,
+      "origin_node": 8627193227,
+      "lat": 42.375145,
+      "lon": -83.23330228585398
+    },
+    {
+      "GEOID": "261635470001",
+      "population": 1050,
+      "walk_minutes": 10.848546889383291,
+      "within_15": true,
+      "origin_node": 7930799537,
+      "lat": 42.36826,
+      "lon": -83.24360654876304
+    },
+    {
+      "GEOID": "261635470002",
+      "population": 832,
+      "walk_minutes": 12.448697193067423,
+      "within_15": true,
+      "origin_node": 62855614,
+      "lat": 42.3683215,
+      "lon": -83.23863218636548
+    },
+    {
+      "GEOID": "261635437001",
+      "population": 271,
+      "walk_minutes": 28.121178325776235,
+      "within_15": false,
+      "origin_node": 8525729570,
+      "lat": 42.3899245,
+      "lon": -83.23398421433542
+    },
+    {
+      "GEOID": "261635433002",
+      "population": 653,
+      "walk_minutes": 25.321935265694865,
+      "within_15": false,
+      "origin_node": 4542125101,
+      "lat": 42.3900335,
+      "lon": -83.22913096595867
+    },
+    {
+      "GEOID": "261635191002",
+      "population": 237,
+      "walk_minutes": 27.970009552063797,
+      "within_15": false,
+      "origin_node": 9352965959,
+      "lat": 42.370171,
+      "lon": -83.04431103117426
+    },
+    {
+      "GEOID": "261635058002",
+      "population": 1875,
+      "walk_minutes": 32.50754959531856,
+      "within_15": false,
+      "origin_node": 62753841,
+      "lat": 42.389575,
+      "lon": -83.04064859598813
+    },
+    {
+      "GEOID": "261635203003",
+      "population": 1427,
+      "walk_minutes": 13.793021343415077,
+      "within_15": true,
+      "origin_node": 7711642575,
+      "lat": 42.352177,
+      "lon": -83.06278689215686
+    },
+    {
+      "GEOID": "261635190001",
+      "population": 450,
+      "walk_minutes": 7.163809053337692,
+      "within_15": true,
+      "origin_node": 7003291874,
+      "lat": 42.363832,
+      "lon": -83.02902365547192
+    },
+    {
+      "GEOID": "261635203001",
+      "population": 491,
+      "walk_minutes": 7.000784185440296,
+      "within_15": true,
+      "origin_node": 5698343528,
+      "lat": 42.3480345,
+      "lon": -83.06154240096154
+    },
+    {
+      "GEOID": "261635204002",
+      "population": 796,
+      "walk_minutes": 11.503323732725082,
+      "within_15": true,
+      "origin_node": 7549867116,
+      "lat": 42.345404,
+      "lon": -83.06611617869629
+    },
+    {
+      "GEOID": "261635057004",
+      "population": 667,
+      "walk_minutes": 12.32370655349714,
+      "within_15": true,
+      "origin_node": 62856512,
+      "lat": 42.3901205,
+      "lon": -83.01646233969942
+    },
+    {
+      "GEOID": "261635192001",
+      "population": 457,
+      "walk_minutes": 24.547192735690885,
+      "within_15": false,
+      "origin_node": 62890893,
+      "lat": 42.379395,
+      "lon": -83.01891276916058
+    },
+    {
+      "GEOID": "261635214002",
+      "population": 679,
+      "walk_minutes": 17.4161785010631,
+      "within_15": false,
+      "origin_node": 4516283998,
+      "lat": 42.331178,
+      "lon": -83.06432352165285
+    },
+    {
+      "GEOID": "261635207003",
+      "population": 233,
+      "walk_minutes": 16.80526925592115,
+      "within_15": false,
+      "origin_node": 9816549117,
+      "lat": 42.3375295,
+      "lon": -83.05448567169705
+    },
+    {
+      "GEOID": "261635433001",
+      "population": 790,
+      "walk_minutes": 18.210747755871843,
+      "within_15": false,
+      "origin_node": 5320529861,
+      "lat": 42.3902205,
+      "lon": -83.22489571307885
+    },
+    {
+      "GEOID": "261635471003",
+      "population": 2639,
+      "walk_minutes": 13.541253690966924,
+      "within_15": true,
+      "origin_node": 62906482,
+      "lat": 42.3684965,
+      "lon": -83.22884217147637
+    },
+    {
+      "GEOID": "261635471002",
+      "population": 916,
+      "walk_minutes": 19.666940173828795,
+      "within_15": false,
+      "origin_node": 6185182061,
+      "lat": 42.370895,
+      "lon": -83.22068929567664
+    },
+    {
+      "GEOID": "261635466001",
+      "population": 555,
+      "walk_minutes": 5.971673357428502,
+      "within_15": true,
+      "origin_node": 62855606,
+      "lat": 42.361071,
+      "lon": -83.23844574546166
+    },
+    {
+      "GEOID": "261635433003",
+      "population": 1027,
+      "walk_minutes": 21.27017539366515,
+      "within_15": false,
+      "origin_node": 6099756215,
+      "lat": 42.3902205,
+      "lon": -83.22010666260775
+    },
+    {
+      "GEOID": "261635472002",
+      "population": 668,
+      "walk_minutes": 11.066215193735545,
+      "within_15": true,
+      "origin_node": 62975649,
+      "lat": 42.361755,
+      "lon": -83.21289759837758
+    },
+    {
+      "GEOID": "261635452003",
+      "population": 252,
+      "walk_minutes": 9.764284781097421,
+      "within_15": true,
+      "origin_node": 62881242,
+      "lat": 42.370163,
+      "lon": -83.19984796600227
+    },
+    {
+      "GEOID": "261635452004",
+      "population": 523,
+      "walk_minutes": 19.777606549106615,
+      "within_15": false,
+      "origin_node": 11503906894,
+      "lat": 42.366688,
+      "lon": -83.20337375087917
+    },
+    {
+      "GEOID": "261635472001",
+      "population": 729,
+      "walk_minutes": 20.79452002435305,
+      "within_15": false,
+      "origin_node": 9554314211,
+      "lat": 42.3615175,
+      "lon": -83.20590438506198
+    },
+    {
+      "GEOID": "261635472003",
+      "population": 563,
+      "walk_minutes": 20.806721910945452,
+      "within_15": false,
+      "origin_node": 6185233552,
+      "lat": 42.3626025,
+      "lon": -83.19988768436019
+    },
+    {
+      "GEOID": "261635456003",
+      "population": 1178,
+      "walk_minutes": 13.54502110945014,
+      "within_15": true,
+      "origin_node": 5818328381,
+      "lat": 42.340009,
+      "lon": -83.19919781349853
+    },
+    {
+      "GEOID": "261635386004",
+      "population": 1522,
+      "walk_minutes": 9.0126414451961,
+      "within_15": true,
+      "origin_node": 62918002,
+      "lat": 42.427972,
+      "lon": -83.14406852590065
+    },
+    {
+      "GEOID": "261635385003",
+      "population": 2333,
+      "walk_minutes": 7.632551549839865,
+      "within_15": true,
+      "origin_node": 62646077,
+      "lat": 42.420772,
+      "lon": -83.14373204520965
+    },
+    {
+      "GEOID": "261635348001",
+      "population": 353,
+      "walk_minutes": 22.141655016451978,
+      "within_15": false,
+      "origin_node": 13664200441,
+      "lat": 42.35594,
+      "lon": -83.14066652704395
+    },
+    {
+      "GEOID": "261635338003",
+      "population": 167,
+      "walk_minutes": 26.76618338057486,
+      "within_15": false,
+      "origin_node": 62656192,
+      "lat": 42.3600015,
+      "lon": -83.1349203145258
+    },
+    {
+      "GEOID": "261635056002",
+      "population": 2630,
+      "walk_minutes": 23.690521289690864,
+      "within_15": false,
+      "origin_node": 62755604,
+      "lat": 42.4255215,
+      "lon": -83.01837941800733
+    },
+    {
+      "GEOID": "261635056001",
+      "population": 1393,
+      "walk_minutes": 16.250424427188022,
+      "within_15": false,
+      "origin_node": 62686277,
+      "lat": 42.4408885,
+      "lon": -83.00818794199685
+    },
+    {
+      "GEOID": "261635054002",
+      "population": 1610,
+      "walk_minutes": 7.822841910276923,
+      "within_15": true,
+      "origin_node": 62745758,
+      "lat": 42.415003,
+      "lon": -82.99534209617063
+    },
+    {
+      "GEOID": "261635043003",
+      "population": 413,
+      "walk_minutes": 14.136962972621298,
+      "within_15": true,
+      "origin_node": 10253388419,
+      "lat": 42.404217,
+      "lon": -82.98267268496573
+    },
+    {
+      "GEOID": "261635044001",
+      "population": 552,
+      "walk_minutes": 14.448777609687188,
+      "within_15": true,
+      "origin_node": 10253388335,
+      "lat": 42.401997,
+      "lon": -82.99207204396859
+    },
+    {
+      "GEOID": "261635044003",
+      "population": 304,
+      "walk_minutes": 6.048587149350583,
+      "within_15": true,
+      "origin_node": 62645940,
+      "lat": 42.4018365,
+      "lon": -82.98679416157833
+    },
+    {
+      "GEOID": "261635338004",
+      "population": 502,
+      "walk_minutes": 34.1747913374201,
+      "within_15": false,
+      "origin_node": 62767598,
+      "lat": 42.355249,
+      "lon": -83.1330166330471
+    },
+    {
+      "GEOID": "261635358005",
+      "population": 749,
+      "walk_minutes": 16.655911293549575,
+      "within_15": false,
+      "origin_node": 62806386,
+      "lat": 42.362521,
+      "lon": -83.18975966917247
+    },
+    {
+      "GEOID": "261635302003",
+      "population": 326,
+      "walk_minutes": 18.40765212890533,
+      "within_15": false,
+      "origin_node": 9545783743,
+      "lat": 42.4135785,
+      "lon": -83.13791248736567
+    },
+    {
+      "GEOID": "261635358004",
+      "population": 752,
+      "walk_minutes": 18.60986867741675,
+      "within_15": false,
+      "origin_node": 8564516700,
+      "lat": 42.3599115,
+      "lon": -83.19219148210504
+    },
+    {
+      "GEOID": "261635358003",
+      "population": 991,
+      "walk_minutes": 20.190717796073635,
+      "within_15": false,
+      "origin_node": 63065750,
+      "lat": 42.352195,
+      "lon": -83.19401278218972
+    },
+    {
+      "GEOID": "261635358001",
+      "population": 807,
+      "walk_minutes": 14.165187256638319,
+      "within_15": true,
+      "origin_node": 3324145711,
+      "lat": 42.353676,
+      "lon": -83.18674683916319
+    },
+    {
+      "GEOID": "261635090003",
+      "population": 455,
+      "walk_minutes": 37.477096864670905,
+      "within_15": false,
+      "origin_node": 9450125787,
+      "lat": 42.424881,
+      "lon": -83.10607743820461
+    },
+    {
+      "GEOID": "261635058003",
+      "population": 172,
+      "walk_minutes": 28.79817618640965,
+      "within_15": false,
+      "origin_node": 9817892559,
+      "lat": 42.3864755,
+      "lon": -83.02968214119238
+    },
+    {
+      "GEOID": "261635424001",
+      "population": 731,
+      "walk_minutes": 13.521717310458468,
+      "within_15": true,
+      "origin_node": 8750828063,
+      "lat": 42.3942425,
+      "lon": -83.20523530667774
+    },
+    {
+      "GEOID": "261635411002",
+      "population": 1057,
+      "walk_minutes": 13.399612225265356,
+      "within_15": true,
+      "origin_node": 8287481018,
+      "lat": 42.422027,
+      "lon": -83.24122206869689
+    },
+    {
+      "GEOID": "261635406002",
+      "population": 1989,
+      "walk_minutes": 22.813628975761166,
+      "within_15": false,
+      "origin_node": 6366476248,
+      "lat": 42.4189455,
+      "lon": -83.23383682105552
+    },
+    {
+      "GEOID": "261635407003",
+      "population": 1271,
+      "walk_minutes": 22.257711808967258,
+      "within_15": false,
+      "origin_node": 8085472671,
+      "lat": 42.433561,
+      "lon": -83.22364465742507
+    },
+    {
+      "GEOID": "261635393001",
+      "population": 1645,
+      "walk_minutes": 21.157898936739308,
+      "within_15": false,
+      "origin_node": 62936675,
+      "lat": 42.434735,
+      "lon": -83.17573655511083
+    },
+    {
+      "GEOID": "261635431002",
+      "population": 1707,
+      "walk_minutes": 22.797058724983085,
+      "within_15": false,
+      "origin_node": 4540148611,
+      "lat": 42.412532,
+      "lon": -83.23355739496498
+    },
+    {
+      "GEOID": "261635429002",
+      "population": 1479,
+      "walk_minutes": 12.284906899376738,
+      "within_15": true,
+      "origin_node": 5034254482,
+      "lat": 42.3971505,
+      "lon": -83.22875947660242
+    },
+    {
+      "GEOID": "261635403001",
+      "population": 1248,
+      "walk_minutes": 27.147607460732182,
+      "within_15": false,
+      "origin_node": 5255059413,
+      "lat": 42.426467,
+      "lon": -83.21576610319127
+    },
+    {
+      "GEOID": "261635386002",
+      "population": 1087,
+      "walk_minutes": 6.280231372285215,
+      "within_15": true,
+      "origin_node": 62698729,
+      "lat": 42.42779,
+      "lon": -83.15866962860727
+    },
+    {
+      "GEOID": "261635091001",
+      "population": 912,
+      "walk_minutes": 35.54144256816455,
+      "within_15": false,
+      "origin_node": 62677447,
+      "lat": 42.409572,
+      "lon": -83.06771290793469
+    },
+    {
+      "GEOID": "261635091003",
+      "population": 1277,
+      "walk_minutes": 29.61664085802311,
+      "within_15": false,
+      "origin_node": 8623825651,
+      "lat": 42.412663,
+      "lon": -83.06214552126119
+    },
+    {
+      "GEOID": "261635091004",
+      "population": 1495,
+      "walk_minutes": 24.7074440008087,
+      "within_15": false,
+      "origin_node": 8633764329,
+      "lat": 42.4094425,
+      "lon": -83.05994710277807
+    },
+    {
+      "GEOID": "261635091002",
+      "population": 140,
+      "walk_minutes": 42.0238179275277,
+      "within_15": false,
+      "origin_node": 8600625871,
+      "lat": 42.407415,
+      "lon": -83.07364308384146
+    },
+    {
+      "GEOID": "261635338002",
+      "population": 417,
+      "walk_minutes": 30.31674975643665,
+      "within_15": false,
+      "origin_node": 10006412171,
+      "lat": 42.3642355,
+      "lon": -83.13499892171717
+    },
+    {
+      "GEOID": "261635315021",
+      "population": 735,
+      "walk_minutes": 6.254977661026233,
+      "within_15": true,
+      "origin_node": 13152190932,
+      "lat": 42.389149,
+      "lon": -83.12280807985029
+    },
+    {
+      "GEOID": "261635241012",
+      "population": 2421,
+      "walk_minutes": 5.566528112381309,
+      "within_15": true,
+      "origin_node": 4376767011,
+      "lat": 42.311869,
+      "lon": -83.1346207623798
+    },
+    {
+      "GEOID": "261635241011",
+      "population": 1603,
+      "walk_minutes": 4.5611267374473945,
+      "within_15": true,
+      "origin_node": 6889252232,
+      "lat": 42.3141005,
+      "lon": -83.12741989846664
+    },
+    {
+      "GEOID": "261635259003",
+      "population": 837,
+      "walk_minutes": 12.635032317613199,
+      "within_15": true,
+      "origin_node": 8597526388,
+      "lat": 42.3349705,
+      "lon": -83.10796414988494
+    },
+    {
+      "GEOID": "261635259001",
+      "population": 608,
+      "walk_minutes": 11.165175596335368,
+      "within_15": true,
+      "origin_node": 8481039085,
+      "lat": 42.3280895,
+      "lon": -83.10859292677345
+    },
+    {
+      "GEOID": "261635240012",
+      "population": 1072,
+      "walk_minutes": 7.605571633793699,
+      "within_15": true,
+      "origin_node": 4373156878,
+      "lat": 42.315235,
+      "lon": -83.12007824946707
+    },
+    {
+      "GEOID": "261635228001",
+      "population": 741,
+      "walk_minutes": 23.38910338742286,
+      "within_15": false,
+      "origin_node": 7048187553,
+      "lat": 42.335393,
+      "lon": -83.09479645883343
+    },
+    {
+      "GEOID": "261635240013",
+      "population": 468,
+      "walk_minutes": 5.675637571418068,
+      "within_15": true,
+      "origin_node": 4373154842,
+      "lat": 42.3120765,
+      "lon": -83.11846297574944
+    },
+    {
+      "GEOID": "261635232003",
+      "population": 1031,
+      "walk_minutes": 7.962483654378731,
+      "within_15": true,
+      "origin_node": 4416902359,
+      "lat": 42.311967,
+      "lon": -83.10494790235244
+    },
+    {
+      "GEOID": "261635321001",
+      "population": 728,
+      "walk_minutes": 11.668644743103352,
+      "within_15": true,
+      "origin_node": 9135583132,
+      "lat": 42.384126,
+      "lon": -83.09029728215435
+    },
+    {
+      "GEOID": "261635326001",
+      "population": 1009,
+      "walk_minutes": 13.556771702521953,
+      "within_15": true,
+      "origin_node": 3337888086,
+      "lat": 42.367198,
+      "lon": -83.09040784154489
+    },
+    {
+      "GEOID": "261635339004",
+      "population": 565,
+      "walk_minutes": 21.5546394067545,
+      "within_15": false,
+      "origin_node": 7273574529,
+      "lat": 42.3645525,
+      "lon": -83.07464737772526
+    },
+    {
+      "GEOID": "261635219004",
+      "population": 1118,
+      "walk_minutes": 10.383698406156379,
+      "within_15": true,
+      "origin_node": 62688577,
+      "lat": 42.3513445,
+      "lon": -83.08674738097426
+    },
+    {
+      "GEOID": "261635219005",
+      "population": 504,
+      "walk_minutes": 5.731483070343498,
+      "within_15": true,
+      "origin_node": 7609767729,
+      "lat": 42.3507385,
+      "lon": -83.0747669874487
+    },
+    {
+      "GEOID": "261635265002",
+      "population": 585,
+      "walk_minutes": 29.25580883180259,
+      "within_15": false,
+      "origin_node": 62773492,
+      "lat": 42.3480615,
+      "lon": -83.13630021011964
+    },
+    {
+      "GEOID": "261635338001",
+      "population": 628,
+      "walk_minutes": 36.0880936016711,
+      "within_15": false,
+      "origin_node": 11901637838,
+      "lat": 42.361288,
+      "lon": -83.12709634005377
+    },
+    {
+      "GEOID": "261635026002",
+      "population": 1637,
+      "walk_minutes": 21.616305885826268,
+      "within_15": false,
+      "origin_node": 62660457,
+      "lat": 42.3989575,
+      "lon": -82.96859095336656
+    },
+    {
+      "GEOID": "261635041001",
+      "population": 737,
+      "walk_minutes": 17.542540019873922,
+      "within_15": false,
+      "origin_node": 62715880,
+      "lat": 42.409816,
+      "lon": -82.96615618172888
+    },
+    {
+      "GEOID": "261635334003",
+      "population": 482,
+      "walk_minutes": 27.906392349666977,
+      "within_15": false,
+      "origin_node": 8409781664,
+      "lat": 42.359882,
+      "lon": -83.11489967608787
+    },
+    {
+      "GEOID": "261635057001",
+      "population": 207,
+      "walk_minutes": 41.76984680785418,
+      "within_15": false,
+      "origin_node": 62814435,
+      "lat": 42.410228,
+      "lon": -83.01691086870706
+    },
+    {
+      "GEOID": "261635026005",
+      "population": 548,
+      "walk_minutes": 7.597277277233691,
+      "within_15": true,
+      "origin_node": 8426701480,
+      "lat": 42.391446,
+      "lon": -82.97267173963729
+    },
+    {
+      "GEOID": "261635006004",
+      "population": 178,
+      "walk_minutes": 14.86010434771397,
+      "within_15": true,
+      "origin_node": 11202158278,
+      "lat": 42.4287035,
+      "lon": -82.96412207106164
+    },
+    {
+      "GEOID": "261635166003",
+      "population": 880,
+      "walk_minutes": 6.333932032508415,
+      "within_15": true,
+      "origin_node": 5917190158,
+      "lat": 42.3410795,
+      "lon": -83.02046053942613
+    },
+    {
+      "GEOID": "261635167003",
+      "population": 1449,
+      "walk_minutes": 17.2839039880192,
+      "within_15": false,
+      "origin_node": 9441231753,
+      "lat": 42.3498095,
+      "lon": -83.01911305848856
+    },
+    {
+      "GEOID": "261635157003",
+      "population": 1167,
+      "walk_minutes": 8.955111729699865,
+      "within_15": true,
+      "origin_node": 1227999819,
+      "lat": 42.3487575,
+      "lon": -82.99013844494047
+    },
+    {
+      "GEOID": "261635157002",
+      "population": 1008,
+      "walk_minutes": 3.830739891197024,
+      "within_15": true,
+      "origin_node": 1228019181,
+      "lat": 42.3522495,
+      "lon": -82.99062737287286
+    },
+    {
+      "GEOID": "261635091005",
+      "population": 502,
+      "walk_minutes": 46.073762040562464,
+      "within_15": false,
+      "origin_node": 62926526,
+      "lat": 42.413449,
+      "lon": -83.07685475857143
+    },
+    {
+      "GEOID": "261635279001",
+      "population": 338,
+      "walk_minutes": 16.293309653594967,
+      "within_15": false,
+      "origin_node": 7360544336,
+      "lat": 42.3513435,
+      "lon": -83.10545379693826
+    },
+    {
+      "GEOID": "261635191001",
+      "population": 929,
+      "walk_minutes": 21.132472038895113,
+      "within_15": false,
+      "origin_node": 9347663277,
+      "lat": 42.373465,
+      "lon": -83.03472946092896
+    },
+    {
+      "GEOID": "261635415002",
+      "population": 1934,
+      "walk_minutes": 23.44111779515781,
+      "within_15": false,
+      "origin_node": 7940780283,
+      "lat": 42.4400045,
+      "lon": -83.26352410520636
+    },
+    {
+      "GEOID": "261635392002",
+      "population": 779,
+      "walk_minutes": 18.31469717842358,
+      "within_15": false,
+      "origin_node": 8840796066,
+      "lat": 42.4414215,
+      "lon": -83.19478837912767
+    },
+    {
+      "GEOID": "261635403002",
+      "population": 1383,
+      "walk_minutes": 21.030408141423553,
+      "within_15": false,
+      "origin_node": 5256798480,
+      "lat": 42.4266085,
+      "lon": -83.20991942599277
+    },
+    {
+      "GEOID": "261635404002",
+      "population": 1132,
+      "walk_minutes": 27.756446764021963,
+      "within_15": false,
+      "origin_node": 5859562027,
+      "lat": 42.419288,
+      "lon": -83.21291600440964
+    },
+    {
+      "GEOID": "261635385004",
+      "population": 1233,
+      "walk_minutes": 7.828162272077358,
+      "within_15": true,
+      "origin_node": 62646099,
+      "lat": 42.4206,
+      "lon": -83.15834400132263
+    },
+    {
+      "GEOID": "261635385002",
+      "population": 992,
+      "walk_minutes": 11.932666179480496,
+      "within_15": true,
+      "origin_node": 62646085,
+      "lat": 42.420734,
+      "lon": -83.14891110492306
+    },
+    {
+      "GEOID": "261635058004",
+      "population": 589,
+      "walk_minutes": 23.401686615167534,
+      "within_15": false,
+      "origin_node": 62746656,
+      "lat": 42.3974545,
+      "lon": -83.0397950142019
+    },
+    {
+      "GEOID": "261635332002",
+      "population": 326,
+      "walk_minutes": 15.994601465194306,
+      "within_15": false,
+      "origin_node": 13078754961,
+      "lat": 42.3691575,
+      "lon": -83.10938309765625
+    },
+    {
+      "GEOID": "261635070001",
+      "population": 711,
+      "walk_minutes": 16.71143926597777,
+      "within_15": false,
+      "origin_node": 5816765440,
+      "lat": 42.4294775,
+      "lon": -83.06706176164816
+    },
+    {
+      "GEOID": "261635056003",
+      "population": 639,
+      "walk_minutes": 9.348553719387489,
+      "within_15": true,
+      "origin_node": 62769863,
+      "lat": 42.423592,
+      "lon": -83.00901899755613
+    },
+    {
+      "GEOID": "261635279003",
+      "population": 376,
+      "walk_minutes": 26.8992463862278,
+      "within_15": false,
+      "origin_node": 62728604,
+      "lat": 42.352974,
+      "lon": -83.11503115541225
+    },
+    {
+      "GEOID": "261635279002",
+      "population": 604,
+      "walk_minutes": 28.141922820220714,
+      "within_15": false,
+      "origin_node": 8502258751,
+      "lat": 42.347265,
+      "lon": -83.11490941620457
+    },
+    {
+      "GEOID": "261635026003",
+      "population": 364,
+      "walk_minutes": 25.54257599809906,
+      "within_15": false,
+      "origin_node": 4466045062,
+      "lat": 42.402563,
+      "lon": -82.96293820431765
+    },
+    {
+      "GEOID": "261635026001",
+      "population": 1117,
+      "walk_minutes": 23.795915132239692,
+      "within_15": false,
+      "origin_node": 62788929,
+      "lat": 42.398465,
+      "lon": -82.958986979901
+    },
+    {
+      "GEOID": "261635027004",
+      "population": 328,
+      "walk_minutes": 4.981557303852155,
+      "within_15": true,
+      "origin_node": 62600071,
+      "lat": 42.3877995,
+      "lon": -82.96863204079023
+    },
+    {
+      "GEOID": "261635027002",
+      "population": 418,
+      "walk_minutes": 16.148460201900466,
+      "within_15": false,
+      "origin_node": 62600092,
+      "lat": 42.390044,
+      "lon": -82.95936310488347
+    },
+    {
+      "GEOID": "261635257004",
+      "population": 1205,
+      "walk_minutes": 6.03915239412095,
+      "within_15": true,
+      "origin_node": 364985157,
+      "lat": 42.3278195,
+      "lon": -83.12722333779945
+    },
+    {
+      "GEOID": "261635128003",
+      "population": 489,
+      "walk_minutes": 10.6333750825449,
+      "within_15": true,
+      "origin_node": 62677128,
+      "lat": 42.3835785,
+      "lon": -82.95113600637052
+    },
+    {
+      "GEOID": "261635132001",
+      "population": 655,
+      "walk_minutes": 39.42621313804336,
+      "within_15": false,
+      "origin_node": 4211103603,
+      "lat": 42.3649425,
+      "lon": -82.93581114772832
+    },
+    {
+      "GEOID": "261635165002",
+      "population": 1545,
+      "walk_minutes": 11.358229224438215,
+      "within_15": true,
+      "origin_node": 13227670222,
+      "lat": 42.338291,
+      "lon": -83.01051312196957
+    },
+    {
+      "GEOID": "261635169002",
+      "population": 774,
+      "walk_minutes": 8.331216535775242,
+      "within_15": true,
+      "origin_node": 9143494036,
+      "lat": 42.3419845,
+      "lon": -83.02889579733761
+    },
+    {
+      "GEOID": "261635193002",
+      "population": 760,
+      "walk_minutes": 17.09684771757326,
+      "within_15": false,
+      "origin_node": 62640202,
+      "lat": 42.3598345,
+      "lon": -83.01545075422493
+    },
+    {
+      "GEOID": "261635167002",
+      "population": 906,
+      "walk_minutes": 16.75587941093046,
+      "within_15": false,
+      "origin_node": 736928546,
+      "lat": 42.349466,
+      "lon": -83.02700794819836
+    },
+    {
+      "GEOID": "261635192002",
+      "population": 379,
+      "walk_minutes": 18.064884582179776,
+      "within_15": false,
+      "origin_node": 4174383311,
+      "lat": 42.385318,
+      "lon": -83.01491271134014
+    },
+    {
+      "GEOID": "261635008002",
+      "population": 861,
+      "walk_minutes": 23.35425644482672,
+      "within_15": false,
+      "origin_node": 62605495,
+      "lat": 42.423801,
+      "lon": -82.93314203801317
+    },
+    {
+      "GEOID": "261635015002",
+      "population": 829,
+      "walk_minutes": 11.79487988628931,
+      "within_15": true,
+      "origin_node": 62829046,
+      "lat": 42.415346,
+      "lon": -82.93292091183378
+    },
+    {
+      "GEOID": "261635138002",
+      "population": 1129,
+      "walk_minutes": 17.55660108028155,
+      "within_15": false,
+      "origin_node": 4020205440,
+      "lat": 42.364025,
+      "lon": -82.99178123429951
+    },
+    {
+      "GEOID": "261635138001",
+      "population": 1043,
+      "walk_minutes": 15.059609713232021,
+      "within_15": false,
+      "origin_node": 10274629426,
+      "lat": 42.365291,
+      "lon": -82.98171700224887
+    },
+    {
+      "GEOID": "261635016002",
+      "population": 754,
+      "walk_minutes": 26.344722358627248,
+      "within_15": false,
+      "origin_node": 62675071,
+      "lat": 42.4104025,
+      "lon": -82.92568624414443
+    },
+    {
+      "GEOID": "261635245002",
+      "population": 35,
+      "walk_minutes": 45.94057189762911,
+      "within_15": false,
+      "origin_node": 6592981306,
+      "lat": 42.2842785,
+      "lon": -83.15422563627276
+    },
+    {
+      "GEOID": "261635106002",
+      "population": 2170,
+      "walk_minutes": 12.177148941602038,
+      "within_15": true,
+      "origin_node": 6879177598,
+      "lat": 42.4065735,
+      "lon": -83.05139113855265
+    },
+    {
+      "GEOID": "261635106003",
+      "population": 2245,
+      "walk_minutes": 18.244550137432846,
+      "within_15": false,
+      "origin_node": 7289815183,
+      "lat": 42.4104055,
+      "lon": -83.05273308509142
+    },
+    {
+      "GEOID": "261635042001",
+      "population": 1557,
+      "walk_minutes": 21.19531991398241,
+      "within_15": false,
+      "origin_node": 62893583,
+      "lat": 42.408113,
+      "lon": -82.97172543000693
+    },
+    {
+      "GEOID": "261635043002",
+      "population": 712,
+      "walk_minutes": 15.354037403523932,
+      "within_15": false,
+      "origin_node": 7849711636,
+      "lat": 42.4087455,
+      "lon": -82.9821994082196
+    },
+    {
+      "GEOID": "261635068001",
+      "population": 2225,
+      "walk_minutes": 22.624701100893617,
+      "within_15": false,
+      "origin_node": 6807279083,
+      "lat": 42.443289,
+      "lon": -83.06618010564159
+    },
+    {
+      "GEOID": "261635068002",
+      "population": 2037,
+      "walk_minutes": 12.682788564771196,
+      "within_15": true,
+      "origin_node": 62846855,
+      "lat": 42.443289,
+      "lon": -83.07599130869147
+    },
+    {
+      "GEOID": "261635132002",
+      "population": 930,
+      "walk_minutes": 28.721073715041506,
+      "within_15": false,
+      "origin_node": 7071612974,
+      "lat": 42.3709235,
+      "lon": -82.94112914591071
+    },
+    {
+      "GEOID": "261635133002",
+      "population": 1094,
+      "walk_minutes": 40.18086071149213,
+      "within_15": false,
+      "origin_node": 62711523,
+      "lat": 42.363799,
+      "lon": -82.94191600568513
+    },
+    {
+      "GEOID": "261635133001",
+      "population": 940,
+      "walk_minutes": 47.440758426600006,
+      "within_15": false,
+      "origin_node": 13939652836,
+      "lat": 42.355661,
+      "lon": -82.94000628018244
+    },
+    {
+      "GEOID": "261635137002",
+      "population": 1279,
+      "walk_minutes": 11.934610031155612,
+      "within_15": true,
+      "origin_node": 62724072,
+      "lat": 42.359645,
+      "lon": -82.96601500584165
+    },
+    {
+      "GEOID": "261635154002",
+      "population": 954,
+      "walk_minutes": 4.2508911484064305,
+      "within_15": true,
+      "origin_node": 8850994363,
+      "lat": 42.356635,
+      "lon": -82.99343245585655
+    },
+    {
+      "GEOID": "261635316001",
+      "population": 573,
+      "walk_minutes": 5.637218371370748,
+      "within_15": true,
+      "origin_node": 8339208374,
+      "lat": 42.39255,
+      "lon": -83.12722976378328
+    },
+    {
+      "GEOID": "261635018001",
+      "population": 2443,
+      "walk_minutes": 24.20653199438791,
+      "within_15": false,
+      "origin_node": 62653261,
+      "lat": 42.399662,
+      "lon": -82.92895686701718
+    },
+    {
+      "GEOID": "261635366001",
+      "population": 352,
+      "walk_minutes": 19.290378872320254,
+      "within_15": false,
+      "origin_node": 8768910274,
+      "lat": 42.3901765,
+      "lon": -83.1639820823757
+    },
+    {
+      "GEOID": "261635457002",
+      "population": 1704,
+      "walk_minutes": 39.93766443751939,
+      "within_15": false,
+      "origin_node": 6606308015,
+      "lat": 42.3324945,
+      "lon": -83.23159020444686
+    },
+    {
+      "GEOID": "261635393002",
+      "population": 2470,
+      "walk_minutes": 10.640812786121703,
+      "within_15": true,
+      "origin_node": 13663932927,
+      "lat": 42.43466,
+      "lon": -83.18583320432057
+    },
+    {
+      "GEOID": "261635238004",
+      "population": 909,
+      "walk_minutes": 19.586139520904396,
+      "within_15": false,
+      "origin_node": 13101299008,
+      "lat": 42.3090375,
+      "lon": -83.10843140017514
+    },
+    {
+      "GEOID": "261635403003",
+      "population": 1724,
+      "walk_minutes": 15.141188893218954,
+      "within_15": false,
+      "origin_node": 5256798485,
+      "lat": 42.4267175,
+      "lon": -83.20350501074114
+    },
+    {
+      "GEOID": "261635035001",
+      "population": 1354,
+      "walk_minutes": 15.072868872391464,
+      "within_15": false,
+      "origin_node": 5862689721,
+      "lat": 42.430972,
+      "lon": -82.99899631672068
+    },
+    {
+      "GEOID": "261635334001",
+      "population": 386,
+      "walk_minutes": 27.502901115986642,
+      "within_15": false,
+      "origin_node": 8518871991,
+      "lat": 42.3648685,
+      "lon": -83.12518762290796
+    },
+    {
+      "GEOID": "261635459001",
+      "population": 1410,
+      "walk_minutes": 25.91990274545539,
+      "within_15": false,
+      "origin_node": 3952538051,
+      "lat": 42.345041,
+      "lon": -83.23058629834243
+    },
+    {
+      "GEOID": "261635069003",
+      "population": 704,
+      "walk_minutes": 21.45192770407503,
+      "within_15": false,
+      "origin_node": 8318788629,
+      "lat": 42.4360985,
+      "lon": -83.07317751349052
+    },
+    {
+      "GEOID": "261635152001",
+      "population": 789,
+      "walk_minutes": 20.842683690111194,
+      "within_15": false,
+      "origin_node": 5984339446,
+      "lat": 42.359551,
+      "lon": -83.00415285037641
+    },
+    {
+      "GEOID": "261635243003",
+      "population": 1770,
+      "walk_minutes": 7.1722852000125785,
+      "within_15": true,
+      "origin_node": 62675767,
+      "lat": 42.299647,
+      "lon": -83.12978929399176
+    },
+    {
+      "GEOID": "261635065001",
+      "population": 1016,
+      "walk_minutes": 10.278982553373355,
+      "within_15": true,
+      "origin_node": 62701654,
+      "lat": 42.4297895,
+      "lon": -83.05005994100014
+    },
+    {
+      "GEOID": "261635304001",
+      "population": 497,
+      "walk_minutes": 13.261237782900077,
+      "within_15": true,
+      "origin_node": 13885912978,
+      "lat": 42.3890795,
+      "lon": -83.13612304986688
+    },
+    {
+      "GEOID": "261635065002",
+      "population": 1048,
+      "walk_minutes": 18.177701293831248,
+      "within_15": false,
+      "origin_node": 62636088,
+      "lat": 42.4299515,
+      "lon": -83.0428737087964
+    },
+    {
+      "GEOID": "261635007004",
+      "population": 1303,
+      "walk_minutes": 15.19547052061935,
+      "within_15": false,
+      "origin_node": 7810502923,
+      "lat": 42.4317685,
+      "lon": -82.9525237635379
+    },
+    {
+      "GEOID": "261635013002",
+      "population": 1248,
+      "walk_minutes": 25.446224348022444,
+      "within_15": false,
+      "origin_node": 62810339,
+      "lat": 42.4006815,
+      "lon": -82.95225593516321
+    },
+    {
+      "GEOID": "261635234002",
+      "population": 766,
+      "walk_minutes": 5.086886122905693,
+      "within_15": true,
+      "origin_node": 3593660353,
+      "lat": 42.323011,
+      "lon": -83.09358366441222
+    },
+    {
+      "GEOID": "261635069001",
+      "population": 1114,
+      "walk_minutes": 13.906544007856336,
+      "within_15": true,
+      "origin_node": 8318688912,
+      "lat": 42.4369345,
+      "lon": -83.0606500378006
+    },
+    {
+      "GEOID": "261635314001",
+      "population": 774,
+      "walk_minutes": 6.845750147931613,
+      "within_15": true,
+      "origin_node": 11896054094,
+      "lat": 42.3816215,
+      "lon": -83.11980164264813
+    },
+    {
+      "GEOID": "261635356003",
+      "population": 1202,
+      "walk_minutes": 6.370289638156198,
+      "within_15": true,
+      "origin_node": 11663727383,
+      "lat": 42.3547045,
+      "lon": -83.17466110160048
+    },
+    {
+      "GEOID": "261635369001",
+      "population": 1271,
+      "walk_minutes": 14.97183588849118,
+      "within_15": true,
+      "origin_node": 7646446152,
+      "lat": 42.4124875,
+      "lon": -83.17476201011578
+    },
+    {
+      "GEOID": "261635377001",
+      "population": 545,
+      "walk_minutes": 13.909524311982244,
+      "within_15": true,
+      "origin_node": 62632280,
+      "lat": 42.3983535,
+      "lon": -83.1865721734938
+    },
+    {
+      "GEOID": "261635384002",
+      "population": 1950,
+      "walk_minutes": 8.367127492919275,
+      "within_15": true,
+      "origin_node": 62543267,
+      "lat": 42.420856,
+      "lon": -83.1360699442623
+    },
+    {
+      "GEOID": "261635422001",
+      "population": 2281,
+      "walk_minutes": 10.350847406788853,
+      "within_15": true,
+      "origin_node": 8778956587,
+      "lat": 42.405015,
+      "lon": -83.20372919919596
+    },
+    {
+      "GEOID": "261635455001",
+      "population": 552,
+      "walk_minutes": 5.401757677075237,
+      "within_15": true,
+      "origin_node": 6186263939,
+      "lat": 42.347095,
+      "lon": -83.20659337805098
+    },
+    {
+      "GEOID": "261635404001",
+      "population": 1264,
+      "walk_minutes": 19.33541434036915,
+      "within_15": false,
+      "origin_node": 8035677911,
+      "lat": 42.419489,
+      "lon": -83.20322922382401
+    },
+    {
+      "GEOID": "261635304002",
+      "population": 772,
+      "walk_minutes": 10.378087421407109,
+      "within_15": true,
+      "origin_node": 7161683812,
+      "lat": 42.3922305,
+      "lon": -83.13616985219781
+    },
+    {
+      "GEOID": "261635395003",
+      "population": 848,
+      "walk_minutes": 15.993633024707288,
+      "within_15": false,
+      "origin_node": 62655465,
+      "lat": 42.419806,
+      "lon": -83.19455340137878
+    },
+    {
+      "GEOID": "261635369002",
+      "population": 1314,
+      "walk_minutes": 15.513355065874261,
+      "within_15": false,
+      "origin_node": 62781275,
+      "lat": 42.412402,
+      "lon": -83.18230052654141
+    },
+    {
+      "GEOID": "261635238003",
+      "population": 798,
+      "walk_minutes": 8.0139785798667,
+      "within_15": true,
+      "origin_node": 4310173302,
+      "lat": 42.3146665,
+      "lon": -83.11181905273938
+    },
+    {
+      "GEOID": "261635114002",
+      "population": 895,
+      "walk_minutes": 9.53500963247379,
+      "within_15": true,
+      "origin_node": 7412785438,
+      "lat": 42.385959,
+      "lon": -83.07647812537964
+    },
+    {
+      "GEOID": "261635073001",
+      "population": 2083,
+      "walk_minutes": 33.50076482499763,
+      "within_15": false,
+      "origin_node": 9451655770,
+      "lat": 42.428738,
+      "lon": -83.08846109578803
+    },
+    {
+      "GEOID": "261635069002",
+      "population": 1594,
+      "walk_minutes": 16.57829305383847,
+      "within_15": false,
+      "origin_node": 10611436138,
+      "lat": 42.4368205,
+      "lon": -83.06688891367057
+    },
+    {
+      "GEOID": "261635141001",
+      "population": 1218,
+      "walk_minutes": 19.313434532058487,
+      "within_15": false,
+      "origin_node": 4134251051,
+      "lat": 42.3783495,
+      "lon": -82.99355192038283
+    },
+    {
+      "GEOID": "261635353001",
+      "population": 2203,
+      "walk_minutes": 10.320855145923455,
+      "within_15": true,
+      "origin_node": 8364738771,
+      "lat": 42.3696435,
+      "lon": -83.18676851553809
+    },
+    {
+      "GEOID": "261635422002",
+      "population": 1765,
+      "walk_minutes": 17.324148984747538,
+      "within_15": false,
+      "origin_node": 8755754332,
+      "lat": 42.4048185,
+      "lon": -83.21352024601322
+    },
+    {
+      "GEOID": "261635394001",
+      "population": 1010,
+      "walk_minutes": 16.67861473285343,
+      "within_15": false,
+      "origin_node": 62934437,
+      "lat": 42.4275935,
+      "lon": -83.17294063602836
+    },
+    {
+      "GEOID": "261635384001",
+      "population": 1893,
+      "walk_minutes": 12.34299112804024,
+      "within_15": true,
+      "origin_node": 62700596,
+      "lat": 42.428075,
+      "lon": -83.13640554033782
+    },
+    {
+      "GEOID": "261635353002",
+      "population": 868,
+      "walk_minutes": 10.41275493203258,
+      "within_15": true,
+      "origin_node": 62806398,
+      "lat": 42.3775505,
+      "lon": -83.19049780665722
+    },
+    {
+      "GEOID": "261635402002",
+      "population": 546,
+      "walk_minutes": 27.210403819609944,
+      "within_15": false,
+      "origin_node": 4984794722,
+      "lat": 42.43372,
+      "lon": -83.21620339013155
+    },
+    {
+      "GEOID": "261635452001",
+      "population": 387,
+      "walk_minutes": 18.319686673222446,
+      "within_15": false,
+      "origin_node": 6185262863,
+      "lat": 42.370055,
+      "lon": -83.20830916492264
+    },
+    {
+      "GEOID": "261635302001",
+      "population": 1972,
+      "walk_minutes": 25.788014738214653,
+      "within_15": false,
+      "origin_node": 9261857178,
+      "lat": 42.4136995,
+      "lon": -83.13155808035053
+    },
+    {
+      "GEOID": "261635033002",
+      "population": 1507,
+      "walk_minutes": 7.191214341208165,
+      "within_15": true,
+      "origin_node": 62776211,
+      "lat": 42.4384605,
+      "lon": -82.989526188687
+    },
+    {
+      "GEOID": "261635257003",
+      "population": 2034,
+      "walk_minutes": 8.952082526423217,
+      "within_15": true,
+      "origin_node": 62923406,
+      "lat": 42.327192,
+      "lon": -83.1318374611623
+    },
+    {
+      "GEOID": "261635312002",
+      "population": 1712,
+      "walk_minutes": 16.431904975738682,
+      "within_15": false,
+      "origin_node": 3336195167,
+      "lat": 42.37758,
+      "lon": -83.10590979032258
+    },
+    {
+      "GEOID": "261635019001",
+      "population": 1267,
+      "walk_minutes": 25.46838837386749,
+      "within_15": false,
+      "origin_node": 62896095,
+      "lat": 42.398436,
+      "lon": -82.94220453092379
+    },
+    {
+      "GEOID": "261635423001",
+      "population": 931,
+      "walk_minutes": 17.066339879620358,
+      "within_15": false,
+      "origin_node": 8779126982,
+      "lat": 42.3987345,
+      "lon": -83.20996089511803
+    },
+    {
+      "GEOID": "261635061001",
+      "population": 1949,
+      "walk_minutes": 22.222134949186547,
+      "within_15": false,
+      "origin_node": 62800036,
+      "lat": 42.444772,
+      "lon": -83.03198772061484
+    },
+    {
+      "GEOID": "261635336001",
+      "population": 543,
+      "walk_minutes": 30.94258483878658,
+      "within_15": false,
+      "origin_node": 62758453,
+      "lat": 42.356965,
+      "lon": -83.11728483125796
+    },
+    {
+      "GEOID": "261635401002",
+      "population": 1046,
+      "walk_minutes": 30.474951064060054,
+      "within_15": false,
+      "origin_node": 8158727095,
+      "lat": 42.4410065,
+      "lon": -83.21071651017373
+    },
+    {
+      "GEOID": "261635460002",
+      "population": 809,
+      "walk_minutes": 17.666511070373268,
+      "within_15": false,
+      "origin_node": 62717555,
+      "lat": 42.3541945,
+      "lon": -83.2212516281408
+    },
+    {
+      "GEOID": "261635373001",
+      "population": 470,
+      "walk_minutes": 10.174829037693701,
+      "within_15": true,
+      "origin_node": 62722901,
+      "lat": 42.389906,
+      "lon": -83.19490562557603
+    },
+    {
+      "GEOID": "261635451001",
+      "population": 596,
+      "walk_minutes": 23.236445268946323,
+      "within_15": false,
+      "origin_node": 62816825,
+      "lat": 42.375604,
+      "lon": -83.21141249695651
+    },
+    {
+      "GEOID": "261635387001",
+      "population": 1583,
+      "walk_minutes": 8.647600548595875,
+      "within_15": true,
+      "origin_node": 62646112,
+      "lat": 42.420429,
+      "lon": -83.1654067147646
+    },
+    {
+      "GEOID": "261635020001",
+      "population": 2143,
+      "walk_minutes": 14.531509202382288,
+      "within_15": true,
+      "origin_node": 62733013,
+      "lat": 42.3935525,
+      "lon": -82.94722707911947
+    },
+    {
+      "GEOID": "261635386003",
+      "population": 899,
+      "walk_minutes": 10.910579499957809,
+      "within_15": true,
+      "origin_node": 62817513,
+      "lat": 42.42783,
+      "lon": -83.15412667675635
+    },
+    {
+      "GEOID": "261635461002",
+      "population": 2307,
+      "walk_minutes": 21.826793220967375,
+      "within_15": false,
+      "origin_node": 6259060703,
+      "lat": 42.3450595,
+      "lon": -83.23933173429853
+    },
+    {
+      "GEOID": "261635451002",
+      "population": 423,
+      "walk_minutes": 14.065526216290072,
+      "within_15": true,
+      "origin_node": 6185181497,
+      "lat": 42.3754375,
+      "lon": -83.20187463413043
+    },
+    {
+      "GEOID": "261635302002",
+      "population": 1130,
+      "walk_minutes": 23.557156119331093,
+      "within_15": false,
+      "origin_node": 8193055075,
+      "lat": 42.407146,
+      "lon": -83.13396024398074
+    },
+    {
+      "GEOID": "261635247003",
+      "population": 1017,
+      "walk_minutes": 55.135303479673865,
+      "within_15": false,
+      "origin_node": 62685779,
+      "lat": 42.278948,
+      "lon": -83.14642806048387
+    },
+    {
+      "GEOID": "261635247002",
+      "population": 971,
+      "walk_minutes": 58.78095954621744,
+      "within_15": false,
+      "origin_node": 3864582780,
+      "lat": 42.273163,
+      "lon": -83.15731028455804
+    },
+    {
+      "GEOID": "261635371002",
+      "population": 554,
+      "walk_minutes": 5.962070036694407,
+      "within_15": true,
+      "origin_node": 62754206,
+      "lat": 42.3984925,
+      "lon": -83.18167306731866
+    },
+    {
+      "GEOID": "261635238002",
+      "population": 1771,
+      "walk_minutes": 13.491702216114467,
+      "within_15": true,
+      "origin_node": 62788269,
+      "lat": 42.308661,
+      "lon": -83.11446080860333
+    },
+    {
+      "GEOID": "261635233002",
+      "population": 782,
+      "walk_minutes": 13.20728106644601,
+      "within_15": true,
+      "origin_node": 5909784676,
+      "lat": 42.317157,
+      "lon": -83.09748158884726
+    },
+    {
+      "GEOID": "261635318002",
+      "population": 724,
+      "walk_minutes": 16.47333182466542,
+      "within_15": false,
+      "origin_node": 6762590244,
+      "lat": 42.3883615,
+      "lon": -83.1129728216523
+    },
+    {
+      "GEOID": "261635319001",
+      "population": 713,
+      "walk_minutes": 22.88771939596453,
+      "within_15": false,
+      "origin_node": 9385114315,
+      "lat": 42.390391,
+      "lon": -83.10651514367089
+    },
+    {
+      "GEOID": "261635324001",
+      "population": 1170,
+      "walk_minutes": 8.28884976538893,
+      "within_15": true,
+      "origin_node": 4992394222,
+      "lat": 42.3783855,
+      "lon": -83.08402539620252
+    },
+    {
+      "GEOID": "261635339001",
+      "population": 746,
+      "walk_minutes": 6.49309053662011,
+      "within_15": true,
+      "origin_node": 8074091698,
+      "lat": 42.374553,
+      "lon": -83.08154854715903
+    },
+    {
+      "GEOID": "261635334002",
+      "population": 747,
+      "walk_minutes": 21.841011752490378,
+      "within_15": false,
+      "origin_node": 13109256913,
+      "lat": 42.3656725,
+      "lon": -83.11708041332673
+    },
+    {
+      "GEOID": "261635336002",
+      "population": 849,
+      "walk_minutes": 38.27583780347105,
+      "within_15": false,
+      "origin_node": 13099120368,
+      "lat": 42.356069,
+      "lon": -83.12503534246693
+    },
+    {
+      "GEOID": "261635341002",
+      "population": 868,
+      "walk_minutes": 25.418740920631198,
+      "within_15": false,
+      "origin_node": 10279148325,
+      "lat": 42.3784955,
+      "lon": -83.14264195460377
+    },
+    {
+      "GEOID": "261635342001",
+      "population": 1629,
+      "walk_minutes": 10.053715973368064,
+      "within_15": true,
+      "origin_node": 7948766796,
+      "lat": 42.382069,
+      "lon": -83.16368677565868
+    },
+    {
+      "GEOID": "261635365002",
+      "population": 1235,
+      "walk_minutes": 21.89779217804681,
+      "within_15": false,
+      "origin_node": 12482895515,
+      "lat": 42.3836645,
+      "lon": -83.1442385787152
+    },
+    {
+      "GEOID": "261635366002",
+      "population": 1966,
+      "walk_minutes": 24.02980119724132,
+      "within_15": false,
+      "origin_node": 6852321540,
+      "lat": 42.389513,
+      "lon": -83.15416185244989
+    },
+    {
+      "GEOID": "261635368001",
+      "population": 1724,
+      "walk_minutes": 15.894965139610724,
+      "within_15": false,
+      "origin_node": 7952692967,
+      "lat": 42.408626,
+      "lon": -83.16690144605586
+    },
+    {
+      "GEOID": "261635371001",
+      "population": 1134,
+      "walk_minutes": 7.889319718503599,
+      "within_15": true,
+      "origin_node": 8201655026,
+      "lat": 42.397497,
+      "lon": -83.17404716661895
+    },
+    {
+      "GEOID": "261635372001",
+      "population": 649,
+      "walk_minutes": 7.889398277845449,
+      "within_15": true,
+      "origin_node": 8768910255,
+      "lat": 42.387927,
+      "lon": -83.17588975653862
+    },
+    {
+      "GEOID": "261635373003",
+      "population": 1363,
+      "walk_minutes": 12.549510087754104,
+      "within_15": true,
+      "origin_node": 62655495,
+      "lat": 42.3834455,
+      "lon": -83.19314645724789
+    },
+    {
+      "GEOID": "261635375001",
+      "population": 770,
+      "walk_minutes": 13.726462280876826,
+      "within_15": true,
+      "origin_node": 62806377,
+      "lat": 42.405364,
+      "lon": -83.19154224066776
+    },
+    {
+      "GEOID": "261635375003",
+      "population": 1325,
+      "walk_minutes": 8.825302087215194,
+      "within_15": true,
+      "origin_node": 63027906,
+      "lat": 42.405206,
+      "lon": -83.19644239562926
+    },
+    {
+      "GEOID": "261635376001",
+      "population": 1018,
+      "walk_minutes": 16.672781058715213,
+      "within_15": false,
+      "origin_node": 8809315083,
+      "lat": 42.412853,
+      "lon": -83.19185943263737
+    },
+    {
+      "GEOID": "261635377002",
+      "population": 692,
+      "walk_minutes": 18.255856958957313,
+      "within_15": false,
+      "origin_node": 62632289,
+      "lat": 42.398221,
+      "lon": -83.1912241680237
+    },
+    {
+      "GEOID": "261635377003",
+      "population": 912,
+      "walk_minutes": 18.552118070800656,
+      "within_15": false,
+      "origin_node": 8567370210,
+      "lat": 42.3980745,
+      "lon": -83.19613253968316
+    },
+    {
+      "GEOID": "261635378002",
+      "population": 349,
+      "walk_minutes": 13.707347068084632,
+      "within_15": true,
+      "origin_node": 62789345,
+      "lat": 42.391606,
+      "lon": -83.19212899452663
+    },
+    {
+      "GEOID": "261635381001",
+      "population": 1511,
+      "walk_minutes": 16.474241304025288,
+      "within_15": false,
+      "origin_node": 5751934159,
+      "lat": 42.4426075,
+      "lon": -83.13916609318684
+    },
+    {
+      "GEOID": "261635385001",
+      "population": 1062,
+      "walk_minutes": 12.464330881345957,
+      "within_15": true,
+      "origin_node": 62646091,
+      "lat": 42.4206785,
+      "lon": -83.1537614715025
+    },
+    {
+      "GEOID": "261635386001",
+      "population": 2212,
+      "walk_minutes": 13.245071526308712,
+      "within_15": true,
+      "origin_node": 62647108,
+      "lat": 42.427887,
+      "lon": -83.14927711622971
+    },
+    {
+      "GEOID": "261635387002",
+      "population": 2265,
+      "walk_minutes": 9.303066208523864,
+      "within_15": true,
+      "origin_node": 62944422,
+      "lat": 42.427696,
+      "lon": -83.16570848381093
+    },
+    {
+      "GEOID": "261635388001",
+      "population": 2130,
+      "walk_minutes": 19.409492210868542,
+      "within_15": false,
+      "origin_node": 62944412,
+      "lat": 42.4351895,
+      "lon": -83.16598997847096
+    },
+    {
+      "GEOID": "261635389001",
+      "population": 1796,
+      "walk_minutes": 14.816240422177248,
+      "within_15": true,
+      "origin_node": 4660842862,
+      "lat": 42.436892,
+      "lon": -83.1514277768872
+    },
+    {
+      "GEOID": "261635389002",
+      "population": 1462,
+      "walk_minutes": 9.847544948983247,
+      "within_15": true,
+      "origin_node": 10731976933,
+      "lat": 42.4332875,
+      "lon": -83.15130377692766
+    },
+    {
+      "GEOID": "261635390001",
+      "population": 1918,
+      "walk_minutes": 28.91471578435883,
+      "within_15": false,
+      "origin_node": 11716992199,
+      "lat": 42.4422045,
+      "lon": -83.1560857756237
+    },
+    {
+      "GEOID": "261635390002",
+      "population": 1038,
+      "walk_minutes": 16.715422517719375,
+      "within_15": false,
+      "origin_node": 62890085,
+      "lat": 42.4424115,
+      "lon": -83.1463455266043
+    },
+    {
+      "GEOID": "261635391001",
+      "population": 1785,
+      "walk_minutes": 28.30576261277501,
+      "within_15": false,
+      "origin_node": 3887349261,
+      "lat": 42.441987,
+      "lon": -83.16624617257516
+    },
+    {
+      "GEOID": "261635392001",
+      "population": 1623,
+      "walk_minutes": 29.562431560615014,
+      "within_15": false,
+      "origin_node": 62699451,
+      "lat": 42.441842,
+      "lon": -83.17600859699104
+    },
+    {
+      "GEOID": "261635392003",
+      "population": 1884,
+      "walk_minutes": 22.268618400068114,
+      "within_15": false,
+      "origin_node": 62715448,
+      "lat": 42.4420975,
+      "lon": -83.18573810046844
+    },
+    {
+      "GEOID": "261635394002",
+      "population": 1206,
+      "walk_minutes": 9.844878727939559,
+      "within_15": true,
+      "origin_node": 7952711980,
+      "lat": 42.4205695,
+      "lon": -83.17313724280868
+    },
+    {
+      "GEOID": "261635395001",
+      "population": 803,
+      "walk_minutes": 12.790754135994783,
+      "within_15": true,
+      "origin_node": 8255950787,
+      "lat": 42.4201715,
+      "lon": -83.17778732845844
+    },
+    {
+      "GEOID": "261635395002",
+      "population": 1067,
+      "walk_minutes": 17.407593133312858,
+      "within_15": false,
+      "origin_node": 3312838355,
+      "lat": 42.420226,
+      "lon": -83.1848170234631
+    },
+    {
+      "GEOID": "261635396001",
+      "population": 1605,
+      "walk_minutes": 7.255100207789743,
+      "within_15": true,
+      "origin_node": 62813319,
+      "lat": 42.427241,
+      "lon": -83.18641910123256
+    },
+    {
+      "GEOID": "261635397001",
+      "population": 2360,
+      "walk_minutes": 10.409978120776346,
+      "within_15": true,
+      "origin_node": 5258635114,
+      "lat": 42.436651,
+      "lon": -83.19662992797795
+    },
+    {
+      "GEOID": "261635347002",
+      "population": 1253,
+      "walk_minutes": 15.976608236091852,
+      "within_15": false,
+      "origin_node": 10574737397,
+      "lat": 42.355471,
+      "lon": -83.15134725800331
+    },
+    {
+      "GEOID": "261635347003",
+      "population": 950,
+      "walk_minutes": 8.035656631147804,
+      "within_15": true,
+      "origin_node": 7974904261,
+      "lat": 42.3629125,
+      "lon": -83.15393085915903
+    },
+    {
+      "GEOID": "261635350001",
+      "population": 466,
+      "walk_minutes": 13.05515264274153,
+      "within_15": true,
+      "origin_node": 12294912708,
+      "lat": 42.3584995,
+      "lon": -83.17985164249217
+    },
+    {
+      "GEOID": "261635351001",
+      "population": 428,
+      "walk_minutes": 17.109148179831497,
+      "within_15": false,
+      "origin_node": 62934514,
+      "lat": 42.3697925,
+      "lon": -83.17050089465913
+    },
+    {
+      "GEOID": "261635351002",
+      "population": 1093,
+      "walk_minutes": 20.409404617525162,
+      "within_15": false,
+      "origin_node": 62735076,
+      "lat": 42.369746,
+      "lon": -83.17779878949597
+    },
+    {
+      "GEOID": "261635352001",
+      "population": 767,
+      "walk_minutes": 3.12654519355228,
+      "within_15": true,
+      "origin_node": 8255612505,
+      "lat": 42.3792555,
+      "lon": -83.17083167564772
+    },
+    {
+      "GEOID": "261635352002",
+      "population": 1742,
+      "walk_minutes": 11.799818805923133,
+      "within_15": true,
+      "origin_node": 62735094,
+      "lat": 42.378144,
+      "lon": -83.178211052
+    },
+    {
+      "GEOID": "261635353003",
+      "population": 738,
+      "walk_minutes": 8.565246641882528,
+      "within_15": true,
+      "origin_node": 6897122654,
+      "lat": 42.3691,
+      "lon": -83.19414653601463
+    },
+    {
+      "GEOID": "261635356004",
+      "population": 958,
+      "walk_minutes": 5.634917859555064,
+      "within_15": true,
+      "origin_node": 11663646096,
+      "lat": 42.355703,
+      "lon": -83.15990398484848
+    },
+    {
+      "GEOID": "261635357001",
+      "population": 1599,
+      "walk_minutes": 14.032731832608428,
+      "within_15": true,
+      "origin_node": 62888998,
+      "lat": 42.3629615,
+      "lon": -83.16296601539968
+    },
+    {
+      "GEOID": "261635361001",
+      "population": 991,
+      "walk_minutes": 24.274963708350903,
+      "within_15": false,
+      "origin_node": 11735796311,
+      "lat": 42.4131205,
+      "lon": -83.1485351640764
+    },
+    {
+      "GEOID": "261635361002",
+      "population": 1474,
+      "walk_minutes": 18.189352673562166,
+      "within_15": false,
+      "origin_node": 8479282208,
+      "lat": 42.413016,
+      "lon": -83.15559434194707
+    },
+    {
+      "GEOID": "261635363003",
+      "population": 887,
+      "walk_minutes": 23.850923082600207,
+      "within_15": false,
+      "origin_node": 8644194856,
+      "lat": 42.407146,
+      "lon": -83.14556728146853
+    },
+    {
+      "GEOID": "261635364001",
+      "population": 789,
+      "walk_minutes": 19.306455664506842,
+      "within_15": false,
+      "origin_node": 7265393659,
+      "lat": 42.3966465,
+      "lon": -83.15478277780234
+    },
+    {
+      "GEOID": "261635364003",
+      "population": 484,
+      "walk_minutes": 19.989164542962104,
+      "within_15": false,
+      "origin_node": 8644167257,
+      "lat": 42.4014845,
+      "lon": -83.14991620089904
+    },
+    {
+      "GEOID": "261635365001",
+      "population": 762,
+      "walk_minutes": 13.400901709230302,
+      "within_15": true,
+      "origin_node": 62890066,
+      "lat": 42.3907015,
+      "lon": -83.14421447013515
+    },
+    {
+      "GEOID": "261635139001",
+      "population": 410,
+      "walk_minutes": 29.365594785006206,
+      "within_15": false,
+      "origin_node": 4134232345,
+      "lat": 42.370618,
+      "lon": -82.98806369973464
+    },
+    {
+      "GEOID": "261635139002",
+      "population": 998,
+      "walk_minutes": 17.827991840854985,
+      "within_15": false,
+      "origin_node": 62613324,
+      "lat": 42.3736165,
+      "lon": -82.98006328098423
+    },
+    {
+      "GEOID": "261635141002",
+      "population": 769,
+      "walk_minutes": 20.15959444188675,
+      "within_15": false,
+      "origin_node": 13774943837,
+      "lat": 42.3807785,
+      "lon": -82.98491414738788
+    },
+    {
+      "GEOID": "261635339002",
+      "population": 882,
+      "walk_minutes": 16.175256888634387,
+      "within_15": false,
+      "origin_node": 6910741193,
+      "lat": 42.369967,
+      "lon": -83.08209954070036
+    },
+    {
+      "GEOID": "261635327001",
+      "population": 450,
+      "walk_minutes": 10.259644169443431,
+      "within_15": true,
+      "origin_node": 62679781,
+      "lat": 42.3753055,
+      "lon": -83.0927964708589
+    },
+    {
+      "GEOID": "261635330001",
+      "population": 632,
+      "walk_minutes": 11.554885666558276,
+      "within_15": true,
+      "origin_node": 8565509260,
+      "lat": 42.36641,
+      "lon": -83.09483842117648
+    },
+    {
+      "GEOID": "261635143002",
+      "population": 743,
+      "walk_minutes": 12.584214052242466,
+      "within_15": true,
+      "origin_node": 10836286504,
+      "lat": 42.3903355,
+      "lon": -82.98790911988687
+    },
+    {
+      "GEOID": "261635164001",
+      "population": 937,
+      "walk_minutes": 18.010791921095038,
+      "within_15": false,
+      "origin_node": 62646027,
+      "lat": 42.3513285,
+      "lon": -83.00983597585001
+    },
+    {
+      "GEOID": "261635165001",
+      "population": 1043,
+      "walk_minutes": 10.170254231049405,
+      "within_15": true,
+      "origin_node": 6933134638,
+      "lat": 42.3356625,
+      "lon": -83.02291539587739
+    },
+    {
+      "GEOID": "261635166001",
+      "population": 1050,
+      "walk_minutes": 7.760535775386198,
+      "within_15": true,
+      "origin_node": 9032635680,
+      "lat": 42.338589,
+      "lon": -83.02648609052926
+    },
+    {
+      "GEOID": "261635168001",
+      "population": 627,
+      "walk_minutes": 15.965320333051714,
+      "within_15": false,
+      "origin_node": 7003291754,
+      "lat": 42.3567135,
+      "lon": -83.02393530741759
+    },
+    {
+      "GEOID": "261635169001",
+      "population": 1118,
+      "walk_minutes": 10.579384218470825,
+      "within_15": true,
+      "origin_node": 9138278224,
+      "lat": 42.346338,
+      "lon": -83.03055423400673
+    },
+    {
+      "GEOID": "261635225002",
+      "population": 525,
+      "walk_minutes": 16.723036176654198,
+      "within_15": false,
+      "origin_node": 3310776117,
+      "lat": 42.340536,
+      "lon": -83.06317058525096
+    },
+    {
+      "GEOID": "261635207002",
+      "population": 1534,
+      "walk_minutes": 13.35987230237644,
+      "within_15": true,
+      "origin_node": 5866196338,
+      "lat": 42.335499,
+      "lon": -83.05212089953831
+    },
+    {
+      "GEOID": "261635001002",
+      "population": 2843,
+      "walk_minutes": 26.126824083229444,
+      "within_15": false,
+      "origin_node": 8330746915,
+      "lat": 42.4465195,
+      "lon": -82.95022191694376
+    },
+    {
+      "GEOID": "261635070002",
+      "population": 2250,
+      "walk_minutes": 7.988270020159066,
+      "within_15": true,
+      "origin_node": 6140409432,
+      "lat": 42.4296195,
+      "lon": -83.0580394313161
+    },
+    {
+      "GEOID": "261635071001",
+      "population": 1139,
+      "walk_minutes": 28.549797863662462,
+      "within_15": false,
+      "origin_node": 13123929858,
+      "lat": 42.4288835,
+      "lon": -83.07675173947011
+    },
+    {
+      "GEOID": "261635071002",
+      "population": 481,
+      "walk_minutes": 30.82457270527876,
+      "within_15": false,
+      "origin_node": 8533025684,
+      "lat": 42.424681,
+      "lon": -83.07515241515544
+    },
+    {
+      "GEOID": "261635072001",
+      "population": 1186,
+      "walk_minutes": 34.71533345007695,
+      "within_15": false,
+      "origin_node": 8533025675,
+      "lat": 42.421204,
+      "lon": -83.07385272140648
+    },
+    {
+      "GEOID": "261635073002",
+      "population": 226,
+      "walk_minutes": 40.42500777964917,
+      "within_15": false,
+      "origin_node": 8533025706,
+      "lat": 42.421521,
+      "lon": -83.08647038953488
+    },
+    {
+      "GEOID": "261635074001",
+      "population": 1590,
+      "walk_minutes": 19.599420940260842,
+      "within_15": false,
+      "origin_node": 8329474311,
+      "lat": 42.4360545,
+      "lon": -83.07946014556828
+    },
+    {
+      "GEOID": "261635075002",
+      "population": 993,
+      "walk_minutes": 8.03791776552727,
+      "within_15": true,
+      "origin_node": 13096212922,
+      "lat": 42.4433125,
+      "lon": -83.08462686987285
+    },
+    {
+      "GEOID": "261635173001",
+      "population": 1138,
+      "walk_minutes": 13.098015481033242,
+      "within_15": true,
+      "origin_node": 11772645392,
+      "lat": 42.3464755,
+      "lon": -83.04824643901733
+    },
+    {
+      "GEOID": "261635175001",
+      "population": 1565,
+      "walk_minutes": 8.98698854942279,
+      "within_15": true,
+      "origin_node": 7450427033,
+      "lat": 42.3541215,
+      "lon": -83.0547540491435
+    },
+    {
+      "GEOID": "261635175002",
+      "population": 1426,
+      "walk_minutes": 8.610078300759985,
+      "within_15": true,
+      "origin_node": 7450648463,
+      "lat": 42.3524265,
+      "lon": -83.05991420098039
+    },
+    {
+      "GEOID": "261635180001",
+      "population": 531,
+      "walk_minutes": 11.395738732777843,
+      "within_15": true,
+      "origin_node": 827279089,
+      "lat": 42.360443,
+      "lon": -83.06534999546372
+    },
+    {
+      "GEOID": "261635202001",
+      "population": 1100,
+      "walk_minutes": 7.857752026736177,
+      "within_15": true,
+      "origin_node": 4677155651,
+      "lat": 42.3541295,
+      "lon": -83.06833452382057
+    },
+    {
+      "GEOID": "261635203002",
+      "population": 684,
+      "walk_minutes": 13.164072561965739,
+      "within_15": true,
+      "origin_node": 7590717708,
+      "lat": 42.351316,
+      "lon": -83.0653168378247
+    },
+    {
+      "GEOID": "261635316002",
+      "population": 1105,
+      "walk_minutes": 10.955338506508065,
+      "within_15": true,
+      "origin_node": 8526603969,
+      "lat": 42.394951,
+      "lon": -83.12942367740756
+    },
+    {
+      "GEOID": "261635317001",
+      "population": 852,
+      "walk_minutes": 11.169003503619587,
+      "within_15": true,
+      "origin_node": 8587200902,
+      "lat": 42.3960415,
+      "lon": -83.11777225023542
+    },
+    {
+      "GEOID": "261635332001",
+      "population": 665,
+      "walk_minutes": 19.582632787835077,
+      "within_15": false,
+      "origin_node": 5929367539,
+      "lat": 42.3677365,
+      "lon": -83.11394179483199
+    },
+    {
+      "GEOID": "261635330002",
+      "population": 935,
+      "walk_minutes": 13.471715774851702,
+      "within_15": true,
+      "origin_node": 3345055303,
+      "lat": 42.3649555,
+      "lon": -83.09965633423599
+    },
+    {
+      "GEOID": "261635331001",
+      "population": 524,
+      "walk_minutes": 4.472986339291898,
+      "within_15": true,
+      "origin_node": 8194453528,
+      "lat": 42.373017,
+      "lon": -83.09917982017828
+    },
+    {
+      "GEOID": "261635331002",
+      "population": 1146,
+      "walk_minutes": 10.614783892882652,
+      "within_15": true,
+      "origin_node": 3337875396,
+      "lat": 42.3712415,
+      "lon": -83.10384058454846
+    },
+    {
+      "GEOID": "261635112001",
+      "population": 1258,
+      "walk_minutes": 11.440053761731265,
+      "within_15": true,
+      "origin_node": 9358502060,
+      "lat": 42.3797445,
+      "lon": -83.06813085377823
+    },
+    {
+      "GEOID": "261635002001",
+      "population": 695,
+      "walk_minutes": 13.954550827094971,
+      "within_15": true,
+      "origin_node": 11142597816,
+      "lat": 42.446239,
+      "lon": -82.96813146712569
+    },
+    {
+      "GEOID": "261635002002",
+      "population": 1847,
+      "walk_minutes": 15.147312797250152,
+      "within_15": false,
+      "origin_node": 62710079,
+      "lat": 42.4463885,
+      "lon": -82.96102676537595
+    },
+    {
+      "GEOID": "261635003001",
+      "population": 968,
+      "walk_minutes": 10.72892511229993,
+      "within_15": true,
+      "origin_node": 62668445,
+      "lat": 42.4388015,
+      "lon": -82.97042941150298
+    },
+    {
+      "GEOID": "261635003002",
+      "population": 940,
+      "walk_minutes": 23.292886045932907,
+      "within_15": false,
+      "origin_node": 62694458,
+      "lat": 42.4391,
+      "lon": -82.9607545792233
+    },
+    {
+      "GEOID": "261635004001",
+      "population": 586,
+      "walk_minutes": 10.523711032353143,
+      "within_15": true,
+      "origin_node": 62669539,
+      "lat": 42.424906,
+      "lon": -82.98211520647118
+    },
+    {
+      "GEOID": "261635004002",
+      "population": 353,
+      "walk_minutes": 9.313125953924375,
+      "within_15": true,
+      "origin_node": 12040497999,
+      "lat": 42.431757,
+      "lon": -82.97754315257711
+    },
+    {
+      "GEOID": "261635005001",
+      "population": 1052,
+      "walk_minutes": 9.378153654213614,
+      "within_15": true,
+      "origin_node": 62698939,
+      "lat": 42.4243705,
+      "lon": -82.96297675283984
+    },
+    {
+      "GEOID": "261635005002",
+      "population": 724,
+      "walk_minutes": 7.370130722536192,
+      "within_15": true,
+      "origin_node": 62698934,
+      "lat": 42.4239115,
+      "lon": -82.97005598866357
+    },
+    {
+      "GEOID": "261635006001",
+      "population": 1638,
+      "walk_minutes": 12.907105143802468,
+      "within_15": true,
+      "origin_node": 62962240,
+      "lat": 42.4311455,
+      "lon": -82.95742404636712
+    },
+    {
+      "GEOID": "261635006002",
+      "population": 341,
+      "walk_minutes": 16.41593618690343,
+      "within_15": false,
+      "origin_node": 62889808,
+      "lat": 42.433169,
+      "lon": -82.96295595497497
+    },
+    {
+      "GEOID": "261635006003",
+      "population": 445,
+      "walk_minutes": 16.166090311165213,
+      "within_15": false,
+      "origin_node": 62699597,
+      "lat": 42.4310675,
+      "lon": -82.97028279747587
+    },
+    {
+      "GEOID": "261635007001",
+      "population": 772,
+      "walk_minutes": 19.25325439674057,
+      "within_15": false,
+      "origin_node": 8334600513,
+      "lat": 42.427327,
+      "lon": -82.94144281553031
+    },
+    {
+      "GEOID": "261635007002",
+      "population": 507,
+      "walk_minutes": 10.969479824670664,
+      "within_15": true,
+      "origin_node": 7804693852,
+      "lat": 42.428301,
+      "lon": -82.94479164696247
+    },
+    {
+      "GEOID": "261635009002",
+      "population": 1489,
+      "walk_minutes": 13.560918778430903,
+      "within_15": true,
+      "origin_node": 10955162355,
+      "lat": 42.4202535,
+      "lon": -82.94222279681371
+    },
+    {
+      "GEOID": "261635010001",
+      "population": 1542,
+      "walk_minutes": 14.325949414854497,
+      "within_15": true,
+      "origin_node": 7809840919,
+      "lat": 42.416856,
+      "lon": -82.94635555385335
+    },
+    {
+      "GEOID": "261635011001",
+      "population": 1374,
+      "walk_minutes": 9.87516055928432,
+      "within_15": true,
+      "origin_node": 62685546,
+      "lat": 42.4169475,
+      "lon": -82.96185589050864
+    },
+    {
+      "GEOID": "261635011002",
+      "population": 478,
+      "walk_minutes": 23.219742394724282,
+      "within_15": false,
+      "origin_node": 62668909,
+      "lat": 42.409622,
+      "lon": -82.95900222798713
+    },
+    {
+      "GEOID": "261635011004",
+      "population": 718,
+      "walk_minutes": 18.546311784713083,
+      "within_15": false,
+      "origin_node": 8334785293,
+      "lat": 42.415017,
+      "lon": -82.95687465990716
+    },
+    {
+      "GEOID": "261635013003",
+      "population": 1638,
+      "walk_minutes": 20.518470172003287,
+      "within_15": false,
+      "origin_node": 62788950,
+      "lat": 42.403434,
+      "lon": -82.94548206522794
+    },
+    {
+      "GEOID": "261635013001",
+      "population": 736,
+      "walk_minutes": 20.492398828598535,
+      "within_15": false,
+      "origin_node": 62604023,
+      "lat": 42.405696,
+      "lon": -82.95274419065821
+    },
+    {
+      "GEOID": "261635014002",
+      "population": 1587,
+      "walk_minutes": 16.996868141026198,
+      "within_15": false,
+      "origin_node": 62810356,
+      "lat": 42.405542,
+      "lon": -82.93973231737293
+    },
+    {
+      "GEOID": "261635014003",
+      "population": 1000,
+      "walk_minutes": 11.999179375323298,
+      "within_15": true,
+      "origin_node": 62653271,
+      "lat": 42.4075835,
+      "lon": -82.93417137363838
+    },
+    {
+      "GEOID": "261635015003",
+      "population": 1897,
+      "walk_minutes": 23.872365967611522,
+      "within_15": false,
+      "origin_node": 62702461,
+      "lat": 42.4205955,
+      "lon": -82.92113176035538
+    },
+    {
+      "GEOID": "261635015001",
+      "population": 1449,
+      "walk_minutes": 19.728953122894715,
+      "within_15": false,
+      "origin_node": 62708721,
+      "lat": 42.417217,
+      "lon": -82.92716377617259
+    },
+    {
+      "GEOID": "261635016001",
+      "population": 1212,
+      "walk_minutes": 32.53472762945685,
+      "within_15": false,
+      "origin_node": 62675060,
+      "lat": 42.415631,
+      "lon": -82.91553836271012
+    },
+    {
+      "GEOID": "261635017001",
+      "population": 1032,
+      "walk_minutes": 29.29163907634755,
+      "within_15": false,
+      "origin_node": 62867627,
+      "lat": 42.4014795,
+      "lon": -82.92378934773762
+    },
+    {
+      "GEOID": "261635017002",
+      "population": 777,
+      "walk_minutes": 33.743665828174606,
+      "within_15": false,
+      "origin_node": 62708700,
+      "lat": 42.405622,
+      "lon": -82.91960507309942
+    },
+    {
+      "GEOID": "261635018002",
+      "population": 2582,
+      "walk_minutes": 26.293870056041893,
+      "within_15": false,
+      "origin_node": 63003290,
+      "lat": 42.3978895,
+      "lon": -82.93471872873508
+    },
+    {
+      "GEOID": "261635019002",
+      "population": 1407,
+      "walk_minutes": 17.8444895415903,
+      "within_15": false,
+      "origin_node": 62939700,
+      "lat": 42.392736,
+      "lon": -82.93846600503278
+    },
+    {
+      "GEOID": "261635031002",
+      "population": 1689,
+      "walk_minutes": 10.464521945081803,
+      "within_15": true,
+      "origin_node": 8065627420,
+      "lat": 42.4460975,
+      "lon": -82.97431123442625
+    },
+    {
+      "GEOID": "261635051002",
+      "population": 440,
+      "walk_minutes": 14.250159895889857,
+      "within_15": true,
+      "origin_node": 5816753380,
+      "lat": 42.429129,
+      "lon": -83.02210144854826
+    },
+    {
+      "GEOID": "261635051003",
+      "population": 514,
+      "walk_minutes": 7.296994949151251,
+      "within_15": true,
+      "origin_node": 9887269136,
+      "lat": 42.4376715,
+      "lon": -83.01984504054059
+    },
+    {
+      "GEOID": "261635032001",
+      "population": 1526,
+      "walk_minutes": 15.95169369466412,
+      "within_15": false,
+      "origin_node": 7952953347,
+      "lat": 42.4457105,
+      "lon": -82.98980978699282
+    },
+    {
+      "GEOID": "261635032002",
+      "population": 1692,
+      "walk_minutes": 6.001191379734717,
+      "within_15": true,
+      "origin_node": 10016907034,
+      "lat": 42.445358,
+      "lon": -82.9995882478106
+    },
+    {
+      "GEOID": "261635033001",
+      "population": 1626,
+      "walk_minutes": 15.025763364179458,
+      "within_15": false,
+      "origin_node": 62715574,
+      "lat": 42.438209,
+      "lon": -82.99930532267373
+    },
+    {
+      "GEOID": "261635034001",
+      "population": 1012,
+      "walk_minutes": 5.399077268252443,
+      "within_15": true,
+      "origin_node": 62726270,
+      "lat": 42.4389,
+      "lon": -82.98022947698745
+    },
+    {
+      "GEOID": "261635035002",
+      "population": 630,
+      "walk_minutes": 7.113660913438638,
+      "within_15": true,
+      "origin_node": 9653018272,
+      "lat": 42.431203,
+      "lon": -82.9892345370389
+    },
+    {
+      "GEOID": "261635035003",
+      "population": 60,
+      "walk_minutes": 10.668058164944936,
+      "within_15": true,
+      "origin_node": 62942633,
+      "lat": 42.431399,
+      "lon": -82.9825526850504
+    },
+    {
+      "GEOID": "261635036001",
+      "population": 1560,
+      "walk_minutes": 11.255495870723994,
+      "within_15": true,
+      "origin_node": 62715555,
+      "lat": 42.423821,
+      "lon": -82.99869474526541
+    },
+    {
+      "GEOID": "261635039001",
+      "population": 1953,
+      "walk_minutes": 6.94956899670663,
+      "within_15": true,
+      "origin_node": 11002196120,
+      "lat": 42.413513,
+      "lon": -82.98604220257747
+    },
+    {
+      "GEOID": "261635040002",
+      "population": 554,
+      "walk_minutes": 13.558291402965676,
+      "within_15": true,
+      "origin_node": 62664780,
+      "lat": 42.4166505,
+      "lon": -82.97546947475354
+    },
+    {
+      "GEOID": "261635041002",
+      "population": 574,
+      "walk_minutes": 10.049272479746607,
+      "within_15": true,
+      "origin_node": 9386184017,
+      "lat": 42.4180325,
+      "lon": -82.96898557075335
+    },
+    {
+      "GEOID": "261635052001",
+      "population": 939,
+      "walk_minutes": 15.383308631555936,
+      "within_15": false,
+      "origin_node": 62785839,
+      "lat": 42.410021,
+      "lon": -83.00035521323387
+    },
+    {
+      "GEOID": "261635062001",
+      "population": 2286,
+      "walk_minutes": 8.956290099693934,
+      "within_15": true,
+      "origin_node": 8204575667,
+      "lat": 42.4376455,
+      "lon": -83.03173072046586
+    },
+    {
+      "GEOID": "261635063001",
+      "population": 1097,
+      "walk_minutes": 7.968969377452418,
+      "within_15": true,
+      "origin_node": 62701686,
+      "lat": 42.430184,
+      "lon": -83.03145843647508
+    },
+    {
+      "GEOID": "261635063002",
+      "population": 801,
+      "walk_minutes": 21.50125669616342,
+      "within_15": false,
+      "origin_node": 8319551197,
+      "lat": 42.422488,
+      "lon": -83.03114977227239
+    },
+    {
+      "GEOID": "261635064001",
+      "population": 956,
+      "walk_minutes": 27.28481968228251,
+      "within_15": false,
+      "origin_node": 62753802,
+      "lat": 42.422512,
+      "lon": -83.04085384536083
+    },
+    {
+      "GEOID": "261635064002",
+      "population": 430,
+      "walk_minutes": 24.222977415081917,
+      "within_15": false,
+      "origin_node": 1283184284,
+      "lat": 42.4234585,
+      "lon": -83.05298778191256
+    },
+    {
+      "GEOID": "261635066001",
+      "population": 1835,
+      "walk_minutes": 7.914186572162527,
+      "within_15": true,
+      "origin_node": 62805925,
+      "lat": 42.4370915,
+      "lon": -83.05255720917572
+    },
+    {
+      "GEOID": "261635066002",
+      "population": 1009,
+      "walk_minutes": 17.06635547699469,
+      "within_15": false,
+      "origin_node": 62636106,
+      "lat": 42.436667,
+      "lon": -83.0430940254036
+    },
+    {
+      "GEOID": "261635067001",
+      "population": 1196,
+      "walk_minutes": 24.97771310350349,
+      "within_15": false,
+      "origin_node": 6139005950,
+      "lat": 42.44419,
+      "lon": -83.04660060347716
+    },
+    {
+      "GEOID": "261635081002",
+      "population": 757,
+      "walk_minutes": 34.34757834840255,
+      "within_15": false,
+      "origin_node": 62629818,
+      "lat": 42.435895,
+      "lon": -83.09946243965518
+    },
+    {
+      "GEOID": "261635142002",
+      "population": 406,
+      "walk_minutes": 14.549454849511854,
+      "within_15": true,
+      "origin_node": 62543165,
+      "lat": 42.3843095,
+      "lon": -83.0063176633166
+    },
+    {
+      "GEOID": "261635142001",
+      "population": 1337,
+      "walk_minutes": 22.11969511194123,
+      "within_15": false,
+      "origin_node": 4108978960,
+      "lat": 42.3792805,
+      "lon": -83.01030539661815
+    },
+    {
+      "GEOID": "261635160002",
+      "population": 897,
+      "walk_minutes": 23.265693076352186,
+      "within_15": false,
+      "origin_node": 3902342404,
+      "lat": 42.3698895,
+      "lon": -83.0113024528793
+    },
+    {
+      "GEOID": "261635152002",
+      "population": 717,
+      "walk_minutes": 25.746972558320426,
+      "within_15": false,
+      "origin_node": 8942273499,
+      "lat": 42.363968,
+      "lon": -83.00721306289937
+    },
+    {
+      "GEOID": "261635153001",
+      "population": 2088,
+      "walk_minutes": 14.84627415731184,
+      "within_15": true,
+      "origin_node": 8653997924,
+      "lat": 42.3546285,
+      "lon": -83.00118036102188
+    },
+    {
+      "GEOID": "261635153002",
+      "population": 1174,
+      "walk_minutes": 12.530462385419819,
+      "within_15": true,
+      "origin_node": 7259205457,
+      "lat": 42.3505485,
+      "lon": -82.99990345038168
+    },
+    {
+      "GEOID": "261635154001",
+      "population": 503,
+      "walk_minutes": 16.78626060583195,
+      "within_15": false,
+      "origin_node": 8942248879,
+      "lat": 42.3648025,
+      "lon": -82.9989034560592
+    },
+    {
+      "GEOID": "261635443002",
+      "population": 1802,
+      "walk_minutes": 27.525290178680724,
+      "within_15": false,
+      "origin_node": 62858841,
+      "lat": 42.4073695,
+      "lon": -83.27183659129966
+    },
+    {
+      "GEOID": "261635452002",
+      "population": 1552,
+      "walk_minutes": 12.019417010306546,
+      "within_15": true,
+      "origin_node": 6185289039,
+      "lat": 42.368255,
+      "lon": -83.21304124971732
+    },
+    {
+      "GEOID": "261635455002",
+      "population": 1124,
+      "walk_minutes": 12.390080164242496,
+      "within_15": true,
+      "origin_node": 62832707,
+      "lat": 42.347546,
+      "lon": -83.21280154991575
+    },
+    {
+      "GEOID": "261635456001",
+      "population": 2156,
+      "walk_minutes": 6.547870269352673,
+      "within_15": true,
+      "origin_node": 62664978,
+      "lat": 42.339911,
+      "lon": -83.20595200650561
+    },
+    {
+      "GEOID": "261635458001",
+      "population": 2770,
+      "walk_minutes": 18.97634479569285,
+      "within_15": false,
+      "origin_node": 7287402802,
+      "lat": 42.3396905,
+      "lon": -83.22086631511564
+    },
+    {
+      "GEOID": "261635458003",
+      "population": 643,
+      "walk_minutes": 28.08928592378008,
+      "within_15": false,
+      "origin_node": 62665041,
+      "lat": 42.339488,
+      "lon": -83.2352351031812
+    },
+    {
+      "GEOID": "261635405002",
+      "population": 609,
+      "walk_minutes": 23.60652165174222,
+      "within_15": false,
+      "origin_node": 7961318146,
+      "lat": 42.4247855,
+      "lon": -83.22551215203006
+    },
+    {
+      "GEOID": "261635405003",
+      "population": 978,
+      "walk_minutes": 30.55870632550319,
+      "within_15": false,
+      "origin_node": 62912112,
+      "lat": 42.426366,
+      "lon": -83.22028636112282
+    },
+    {
+      "GEOID": "261635406001",
+      "population": 1313,
+      "walk_minutes": 16.44084576505352,
+      "within_15": false,
+      "origin_node": 7961318046,
+      "lat": 42.4256805,
+      "lon": -83.23414734076434
+    },
+    {
+      "GEOID": "261635409003",
+      "population": 1090,
+      "walk_minutes": 5.190217844173449,
+      "within_15": true,
+      "origin_node": 6403332389,
+      "lat": 42.4419625,
+      "lon": -83.24481553408052
+    },
+    {
+      "GEOID": "261635410001",
+      "population": 1038,
+      "walk_minutes": 8.666463042665377,
+      "within_15": true,
+      "origin_node": 6405130272,
+      "lat": 42.4331085,
+      "lon": -83.24166940406036
+    },
+    {
+      "GEOID": "261635412002",
+      "population": 971,
+      "walk_minutes": 19.014909962541708,
+      "within_15": false,
+      "origin_node": 7953039472,
+      "lat": 42.4249415,
+      "lon": -83.25388395226774
+    },
+    {
+      "GEOID": "261635413001",
+      "population": 1186,
+      "walk_minutes": 7.358106102419499,
+      "within_15": true,
+      "origin_node": 7988823271,
+      "lat": 42.417963,
+      "lon": -83.28198890783509
+    },
+    {
+      "GEOID": "261635413002",
+      "population": 1485,
+      "walk_minutes": 13.460430881198503,
+      "within_15": true,
+      "origin_node": 8591687758,
+      "lat": 42.4253775,
+      "lon": -83.28231238689095
+    },
+    {
+      "GEOID": "261635414001",
+      "population": 853,
+      "walk_minutes": 20.292374557951902,
+      "within_15": false,
+      "origin_node": 2409331411,
+      "lat": 42.4195055,
+      "lon": -83.27115128539447
+    },
+    {
+      "GEOID": "261635414002",
+      "population": 1320,
+      "walk_minutes": 14.90622053195766,
+      "within_15": true,
+      "origin_node": 6346264917,
+      "lat": 42.4228465,
+      "lon": -83.26251349121335
+    },
+    {
+      "GEOID": "261635414003",
+      "population": 600,
+      "walk_minutes": 8.18679982526465,
+      "within_15": true,
+      "origin_node": 8080483819,
+      "lat": 42.4246155,
+      "lon": -83.27254509513432
+    },
+    {
+      "GEOID": "261635415001",
+      "population": 1488,
+      "walk_minutes": 16.515434521921268,
+      "within_15": false,
+      "origin_node": 8193513104,
+      "lat": 42.4325525,
+      "lon": -83.2632209022501
+    },
+    {
+      "GEOID": "261635460001",
+      "population": 1652,
+      "walk_minutes": 13.178750912354818,
+      "within_15": true,
+      "origin_node": 62717562,
+      "lat": 42.354021,
+      "lon": -83.23093926398938
+    },
+    {
+      "GEOID": "261635461001",
+      "population": 1238,
+      "walk_minutes": 7.080499975344386,
+      "within_15": true,
+      "origin_node": 6943524529,
+      "lat": 42.3538435,
+      "lon": -83.24130462272024
+    },
+    {
+      "GEOID": "261635466002",
+      "population": 947,
+      "walk_minutes": 10.72365835342153,
+      "within_15": true,
+      "origin_node": 8222760101,
+      "lat": 42.360962,
+      "lon": -83.24398781845926
+    },
+    {
+      "GEOID": "261635467001",
+      "population": 1829,
+      "walk_minutes": 13.398918075525902,
+      "within_15": true,
+      "origin_node": 8221468299,
+      "lat": 42.361236,
+      "lon": -83.23114731275516
+    },
+    {
+      "GEOID": "261635467002",
+      "population": 1263,
+      "walk_minutes": 7.6364210698767785,
+      "within_15": true,
+      "origin_node": 9554314097,
+      "lat": 42.361773,
+      "lon": -83.22141439031179
+    },
+    {
+      "GEOID": "261635417001",
+      "population": 1065,
+      "walk_minutes": 11.68751338383692,
+      "within_15": true,
+      "origin_node": 3350822367,
+      "lat": 42.4352325,
+      "lon": -83.27304516162204
+    },
+    {
+      "GEOID": "261635417002",
+      "population": 691,
+      "walk_minutes": 8.116887625814833,
+      "within_15": true,
+      "origin_node": 8078516618,
+      "lat": 42.432471,
+      "lon": -83.27595100672079
+    },
+    {
+      "GEOID": "261635418001",
+      "population": 1259,
+      "walk_minutes": 17.409802723072914,
+      "within_15": false,
+      "origin_node": 62613162,
+      "lat": 42.438996,
+      "lon": -83.28325416923319
+    },
+    {
+      "GEOID": "261635421002",
+      "population": 1675,
+      "walk_minutes": 10.135205162456174,
+      "within_15": true,
+      "origin_node": 8743345777,
+      "lat": 42.412234,
+      "lon": -83.2040322283009
+    },
+    {
+      "GEOID": "261635423002",
+      "population": 1659,
+      "walk_minutes": 14.590707276609765,
+      "within_15": true,
+      "origin_node": 8750884864,
+      "lat": 42.3973745,
+      "lon": -83.20250624620627
+    },
+    {
+      "GEOID": "261635424002",
+      "population": 1332,
+      "walk_minutes": 6.085177908678264,
+      "within_15": true,
+      "origin_node": 8781257842,
+      "lat": 42.3893085,
+      "lon": -83.20312079998669
+    },
+    {
+      "GEOID": "261635425001",
+      "population": 1074,
+      "walk_minutes": 16.054902161273265,
+      "within_15": false,
+      "origin_node": 8789905356,
+      "lat": 42.3892145,
+      "lon": -83.21282261722341
+    },
+    {
+      "GEOID": "261635425002",
+      "population": 1514,
+      "walk_minutes": 17.209572892362495,
+      "within_15": false,
+      "origin_node": 4691576791,
+      "lat": 42.396133,
+      "lon": -83.21319394993064
+    },
+    {
+      "GEOID": "261635426001",
+      "population": 1391,
+      "walk_minutes": 7.541680271614527,
+      "within_15": true,
+      "origin_node": 8569774581,
+      "lat": 42.3830045,
+      "lon": -83.20339052644033
+    },
+    {
+      "GEOID": "261635429001",
+      "population": 916,
+      "walk_minutes": 7.853761733747146,
+      "within_15": true,
+      "origin_node": 8343091857,
+      "lat": 42.4037535,
+      "lon": -83.22936520788156
+    },
+    {
+      "GEOID": "261635429003",
+      "population": 1095,
+      "walk_minutes": 9.658965518067983,
+      "within_15": true,
+      "origin_node": 5034254417,
+      "lat": 42.3968455,
+      "lon": -83.22166098576403
+    },
+    {
+      "GEOID": "261635432002",
+      "population": 1081,
+      "walk_minutes": 5.750775970245064,
+      "within_15": true,
+      "origin_node": 62649514,
+      "lat": 42.4107,
+      "lon": -83.25351689723757
+    },
+    {
+      "GEOID": "261635432001",
+      "population": 1221,
+      "walk_minutes": 15.057364243241853,
+      "within_15": false,
+      "origin_node": 8307061950,
+      "lat": 42.4118155,
+      "lon": -83.24196288652678
+    },
+    {
+      "GEOID": "261635432003",
+      "population": 1428,
+      "walk_minutes": 11.601985741434165,
+      "within_15": true,
+      "origin_node": 6036446047,
+      "lat": 42.4104515,
+      "lon": -83.2461476114641
+    },
+    {
+      "GEOID": "261635434001",
+      "population": 659,
+      "walk_minutes": 18.21618352904416,
+      "within_15": false,
+      "origin_node": 62770185,
+      "lat": 42.404222,
+      "lon": -83.24016495180055
+    },
+    {
+      "GEOID": "261635434002",
+      "population": 1749,
+      "walk_minutes": 13.189588630770347,
+      "within_15": true,
+      "origin_node": 62964988,
+      "lat": 42.4043435,
+      "lon": -83.23524283572127
+    },
+    {
+      "GEOID": "261635434003",
+      "population": 1293,
+      "walk_minutes": 19.203617537510137,
+      "within_15": false,
+      "origin_node": 2662082565,
+      "lat": 42.3968325,
+      "lon": -83.23640306737985
+    },
+    {
+      "GEOID": "261635440001",
+      "population": 2226,
+      "walk_minutes": 41.62982473599114,
+      "within_15": false,
+      "origin_node": 6837474685,
+      "lat": 42.3816785,
+      "lon": -83.2681246902347
+    },
+    {
+      "GEOID": "261635441001",
+      "population": 1353,
+      "walk_minutes": 37.60252844937732,
+      "within_15": false,
+      "origin_node": 62624694,
+      "lat": 42.393012,
+      "lon": -83.26282564810427
+    },
+    {
+      "GEOID": "261635441002",
+      "population": 1138,
+      "walk_minutes": 40.87808710401005,
+      "within_15": false,
+      "origin_node": 928673475,
+      "lat": 42.392724,
+      "lon": -83.26979439723928
+    },
+    {
+      "GEOID": "261635442001",
+      "population": 647,
+      "walk_minutes": 18.960671098605477,
+      "within_15": false,
+      "origin_node": 7940321020,
+      "lat": 42.4076135,
+      "lon": -83.2645224896373
+    },
+    {
+      "GEOID": "261635443001",
+      "population": 1194,
+      "walk_minutes": 7.80886977757095,
+      "within_15": true,
+      "origin_node": 8006180984,
+      "lat": 42.4110035,
+      "lon": -83.28170632138256
+    },
+    {
+      "GEOID": "261635367001",
+      "population": 1347,
+      "walk_minutes": 21.964204032838495,
+      "within_15": false,
+      "origin_node": 62776432,
+      "lat": 42.398971,
+      "lon": -83.16437896343312
+    },
+    {
+      "GEOID": "261635458002",
+      "population": 2090,
+      "walk_minutes": 27.4324146858865,
+      "within_15": false,
+      "origin_node": 62665030,
+      "lat": 42.339584,
+      "lon": -83.22914461469836
+    },
+    {
+      "GEOID": "261635409002",
+      "population": 1632,
+      "walk_minutes": 11.463279708425267,
+      "within_15": true,
+      "origin_node": 6382234025,
+      "lat": 42.439919,
+      "lon": -83.25447760070335
+    },
+    {
+      "GEOID": "261635375002",
+      "population": 784,
+      "walk_minutes": 10.568097005258709,
+      "within_15": true,
+      "origin_node": 62863635,
+      "lat": 42.405502,
+      "lon": -83.18688085949577
+    },
+    {
+      "GEOID": "261635233001",
+      "population": 1507,
+      "walk_minutes": 11.72282851497603,
+      "within_15": true,
+      "origin_node": 62772143,
+      "lat": 42.320603,
+      "lon": -83.09995787716258
+    },
+    {
+      "GEOID": "261635007003",
+      "population": 1421,
+      "walk_minutes": 12.055371114456449,
+      "within_15": true,
+      "origin_node": 7794809281,
+      "lat": 42.4300655,
+      "lon": -82.9483256878321
+    },
+    {
+      "GEOID": "261635054001",
+      "population": 450,
+      "walk_minutes": 9.289612607836682,
+      "within_15": true,
+      "origin_node": 62635651,
+      "lat": 42.4212655,
+      "lon": -82.99268943609076
+    },
+    {
+      "GEOID": "261635014001",
+      "population": 934,
+      "walk_minutes": 3.432969965051206,
+      "within_15": true,
+      "origin_node": 62622535,
+      "lat": 42.4119495,
+      "lon": -82.93919582564575
+    },
+    {
+      "GEOID": "261635215002",
+      "population": 678,
+      "walk_minutes": 20.551522644152477,
+      "within_15": false,
+      "origin_node": 4692211205,
+      "lat": 42.334751,
+      "lon": -83.08363369346664
+    },
+    {
+      "GEOID": "261635219003",
+      "population": 52,
+      "walk_minutes": 10.15578188564084,
+      "within_15": true,
+      "origin_node": 5930170105,
+      "lat": 42.3483745,
+      "lon": -83.08507840543714
+    },
+    {
+      "GEOID": "261635223001",
+      "population": 810,
+      "walk_minutes": 16.692454345284226,
+      "within_15": false,
+      "origin_node": 7626547464,
+      "lat": 42.3577075,
+      "lon": -83.09055279282279
+    },
+    {
+      "GEOID": "261635233003",
+      "population": 594,
+      "walk_minutes": 15.694760339853456,
+      "within_15": false,
+      "origin_node": 62870736,
+      "lat": 42.3139205,
+      "lon": -83.09514731865325
+    },
+    {
+      "GEOID": "261635402001",
+      "population": 911,
+      "walk_minutes": 21.060496805502336,
+      "within_15": false,
+      "origin_node": 5255657415,
+      "lat": 42.4338695,
+      "lon": -83.21024693752878
+    },
+    {
+      "GEOID": "261635402003",
+      "population": 1580,
+      "walk_minutes": 14.430972112916956,
+      "within_15": true,
+      "origin_node": 4842829815,
+      "lat": 42.433969,
+      "lon": -83.2037419131106
+    },
+    {
+      "GEOID": "261635262001",
+      "population": 1196,
+      "walk_minutes": 23.83732768562657,
+      "within_15": false,
+      "origin_node": 10846093780,
+      "lat": 42.336417,
+      "lon": -83.14508353338762
+    },
+    {
+      "GEOID": "261635242001",
+      "population": 934,
+      "walk_minutes": 2.7207111463385782,
+      "within_15": true,
+      "origin_node": 4377871904,
+      "lat": 42.306416,
+      "lon": -83.1292779069612
+    },
+    {
+      "GEOID": "261635242002",
+      "population": 1706,
+      "walk_minutes": 4.577463751674613,
+      "within_15": true,
+      "origin_node": 62675781,
+      "lat": 42.3037285,
+      "lon": -83.13261521440066
+    },
+    {
+      "GEOID": "261635411001",
+      "population": 1205,
+      "walk_minutes": 17.692449498582747,
+      "within_15": false,
+      "origin_node": 8194133229,
+      "lat": 42.422291,
+      "lon": -83.24667273866856
+    },
+    {
+      "GEOID": "261635439001",
+      "population": 839,
+      "walk_minutes": 23.326842244692788,
+      "within_15": false,
+      "origin_node": 62637021,
+      "lat": 42.3817755,
+      "lon": -83.2497482545
+    },
+    {
+      "GEOID": "261635407001",
+      "population": 677,
+      "walk_minutes": 8.921992584149525,
+      "within_15": true,
+      "origin_node": 62697226,
+      "lat": 42.4314765,
+      "lon": -83.23338321716565
+    },
+    {
+      "GEOID": "261635407002",
+      "population": 1513,
+      "walk_minutes": 16.211337206482185,
+      "within_15": false,
+      "origin_node": 8020055095,
+      "lat": 42.4351285,
+      "lon": -83.23352891214893
+    },
+    {
+      "GEOID": "261635254002",
+      "population": 1367,
+      "walk_minutes": 12.893162717495679,
+      "within_15": true,
+      "origin_node": 62846526,
+      "lat": 42.337668,
+      "lon": -83.11763839017341
+    },
+    {
+      "GEOID": "261635257001",
+      "population": 1049,
+      "walk_minutes": 11.406236742419775,
+      "within_15": true,
+      "origin_node": 8990701137,
+      "lat": 42.327044,
+      "lon": -83.12096682238308
+    },
+    {
+      "GEOID": "261635261002",
+      "population": 1592,
+      "walk_minutes": 31.3548090846726,
+      "within_15": false,
+      "origin_node": 3115601873,
+      "lat": 42.3334675,
+      "lon": -83.1534540358015
+    },
+    {
+      "GEOID": "261635262003",
+      "population": 852,
+      "walk_minutes": 29.595364163799097,
+      "within_15": false,
+      "origin_node": 11390147913,
+      "lat": 42.3409305,
+      "lon": -83.14720116476462
+    },
+    {
+      "GEOID": "261635263002",
+      "population": 944,
+      "walk_minutes": 24.04653497595428,
+      "within_15": false,
+      "origin_node": 11445432272,
+      "lat": 42.3421565,
+      "lon": -83.14138801446919
+    },
+    {
+      "GEOID": "261635263001",
+      "population": 1126,
+      "walk_minutes": 12.581182833644228,
+      "within_15": true,
+      "origin_node": 11463872587,
+      "lat": 42.335402,
+      "lon": -83.13558354649582
+    },
+    {
+      "GEOID": "261635265001",
+      "population": 937,
+      "walk_minutes": 27.855354609050035,
+      "within_15": false,
+      "origin_node": 63012832,
+      "lat": 42.3481575,
+      "lon": -83.14378879404146
+    },
+    {
+      "GEOID": "261635247001",
+      "population": 1486,
+      "walk_minutes": 66.82444910469732,
+      "within_15": false,
+      "origin_node": 6710416147,
+      "lat": 42.269479,
+      "lon": -83.15203120559036
+    },
+    {
+      "GEOID": "261635248002",
+      "population": 978,
+      "walk_minutes": 82.24450522131471,
+      "within_15": false,
+      "origin_node": 62675042,
+      "lat": 42.2604245,
+      "lon": -83.15946393951613
+    },
+    {
+      "GEOID": "261635305002",
+      "population": 934,
+      "walk_minutes": 16.05987699352363,
+      "within_15": false,
+      "origin_node": 7947876013,
+      "lat": 42.3858245,
+      "lon": -83.13105748366553
+    },
+    {
+      "GEOID": "261635308001",
+      "population": 546,
+      "walk_minutes": 21.60554409745371,
+      "within_15": false,
+      "origin_node": 11232352612,
+      "lat": 42.369162,
+      "lon": -83.13304026056784
+    },
+    {
+      "GEOID": "261635308002",
+      "population": 802,
+      "walk_minutes": 17.22506038338628,
+      "within_15": false,
+      "origin_node": 7976977287,
+      "lat": 42.376008,
+      "lon": -83.1355047400181
+    },
+    {
+      "GEOID": "261635303002",
+      "population": 510,
+      "walk_minutes": 20.548733414606602,
+      "within_15": false,
+      "origin_node": 8627078775,
+      "lat": 42.403946,
+      "lon": -83.12993249048395
+    },
+    {
+      "GEOID": "261635311001",
+      "population": 1037,
+      "walk_minutes": 12.803512353322974,
+      "within_15": true,
+      "origin_node": 11398910345,
+      "lat": 42.3752185,
+      "lon": -83.1155089032721
+    },
+    {
+      "GEOID": "261635312001",
+      "population": 734,
+      "walk_minutes": 16.448074736588463,
+      "within_15": false,
+      "origin_node": 5687426464,
+      "lat": 42.38008,
+      "lon": -83.09626340576924
+    },
+    {
+      "GEOID": "261635313001",
+      "population": 1236,
+      "walk_minutes": 19.347354698555122,
+      "within_15": false,
+      "origin_node": 62694446,
+      "lat": 42.3832775,
+      "lon": -83.10978356146325
+    },
+    {
+      "GEOID": "261635314002",
+      "population": 762,
+      "walk_minutes": 6.649984626977987,
+      "within_15": true,
+      "origin_node": 6860935969,
+      "lat": 42.3791675,
+      "lon": -83.11813295364854
+    },
+    {
+      "GEOID": "261635075001",
+      "population": 1096,
+      "walk_minutes": 16.959403681629425,
+      "within_15": false,
+      "origin_node": 62846843,
+      "lat": 42.4432455,
+      "lon": -83.09163317709188
+    },
+    {
+      "GEOID": "261635074002",
+      "population": 1214,
+      "walk_minutes": 24.06435740882688,
+      "within_15": false,
+      "origin_node": 62812172,
+      "lat": 42.435943,
+      "lon": -83.0890317341625
+    },
+    {
+      "GEOID": "261635080001",
+      "population": 956,
+      "walk_minutes": 23.052505407712864,
+      "within_15": false,
+      "origin_node": 10728697881,
+      "lat": 42.435895,
+      "lon": -83.11069875184162
+    },
+    {
+      "GEOID": "261635119002",
+      "population": 489,
+      "walk_minutes": 5.291035981657014,
+      "within_15": true,
+      "origin_node": 62917109,
+      "lat": 42.3767315,
+      "lon": -83.07400295620212
+    },
+    {
+      "GEOID": "261635119001",
+      "population": 659,
+      "walk_minutes": 18.255372704689442,
+      "within_15": false,
+      "origin_node": 62769124,
+      "lat": 42.3682045,
+      "lon": -83.06831530646673
+    },
+    {
+      "GEOID": "261639853001",
+      "population": 309,
+      "walk_minutes": 13.677270876540348,
+      "within_15": true,
+      "origin_node": 10907511151,
+      "lat": 42.3198425,
+      "lon": -83.06958810863338
+    },
+    {
+      "GEOID": "261635043001",
+      "population": 779,
+      "walk_minutes": 10.547964890503854,
+      "within_15": true,
+      "origin_node": 62627124,
+      "lat": 42.403354,
+      "lon": -82.97720074443103
+    },
+    {
+      "GEOID": "261635012001",
+      "population": 1770,
+      "walk_minutes": 15.359949851105007,
+      "within_15": false,
+      "origin_node": 62899870,
+      "lat": 42.4120915,
+      "lon": -82.95008986977646
+    },
+    {
+      "GEOID": "261635180002",
+      "population": 2091,
+      "walk_minutes": 10.68112945303613,
+      "within_15": true,
+      "origin_node": 7524430305,
+      "lat": 42.3634735,
+      "lon": -83.0608280517494
+    },
+    {
+      "GEOID": "261635264001",
+      "population": 1366,
+      "walk_minutes": 13.43454080216892,
+      "within_15": true,
+      "origin_node": 11514719014,
+      "lat": 42.337956,
+      "lon": -83.1288842768166
+    },
+    {
+      "GEOID": "261635171001",
+      "population": 1301,
+      "walk_minutes": 7.096944549317849,
+      "within_15": true,
+      "origin_node": 62777070,
+      "lat": 42.335807,
+      "lon": -83.03305011777356
+    },
+    {
+      "GEOID": "261635204001",
+      "population": 687,
+      "walk_minutes": 10.810395771106991,
+      "within_15": true,
+      "origin_node": 830104458,
+      "lat": 42.351028,
+      "lon": -83.06778899522178
+    },
+    {
+      "GEOID": "261635243001",
+      "population": 690,
+      "walk_minutes": 4.850367664673586,
+      "within_15": true,
+      "origin_node": 4377871932,
+      "lat": 42.303324,
+      "lon": -83.12532871080231
+    },
+    {
+      "GEOID": "261635394003",
+      "population": 1418,
+      "walk_minutes": 13.282227342685037,
+      "within_15": true,
+      "origin_node": 62823304,
+      "lat": 42.427466,
+      "lon": -83.1792884133851
+    },
+    {
+      "GEOID": "261635031001",
+      "population": 1280,
+      "walk_minutes": 18.50255263541672,
+      "within_15": false,
+      "origin_node": 7952942020,
+      "lat": 42.445914,
+      "lon": -82.98186367916912
+    },
+    {
+      "GEOID": "261635232001",
+      "population": 533,
+      "walk_minutes": 3.3320487323685932,
+      "within_15": true,
+      "origin_node": 5919680915,
+      "lat": 42.318369,
+      "lon": -83.10630050420167
+    },
+    {
+      "GEOID": "261635350003",
+      "population": 1087,
+      "walk_minutes": 18.151755770910825,
+      "within_15": false,
+      "origin_node": 62628505,
+      "lat": 42.36236,
+      "lon": -83.17027304533461
+    },
+    {
+      "GEOID": "261635370002",
+      "population": 495,
+      "walk_minutes": 6.5159517489920695,
+      "within_15": true,
+      "origin_node": 62845126,
+      "lat": 42.4056415,
+      "lon": -83.1819918772066
+    },
+    {
+      "GEOID": "261635410003",
+      "population": 2756,
+      "walk_minutes": 19.143614113703624,
+      "within_15": false,
+      "origin_node": 6371437236,
+      "lat": 42.432825,
+      "lon": -83.25421338212378
+    },
+    {
+      "GEOID": "261635113001",
+      "population": 1711,
+      "walk_minutes": 25.177589986275482,
+      "within_15": false,
+      "origin_node": 9568900469,
+      "lat": 42.4146645,
+      "lon": -83.05425694952788
+    },
+    {
+      "GEOID": "261635160001",
+      "population": 1267,
+      "walk_minutes": 26.829767990395677,
+      "within_15": false,
+      "origin_node": 11129084160,
+      "lat": 42.373523,
+      "lon": -83.00645313211382
+    },
+    {
+      "GEOID": "261635309003",
+      "population": 520,
+      "walk_minutes": 13.055334480277645,
+      "within_15": true,
+      "origin_node": 11908891316,
+      "lat": 42.3719385,
+      "lon": -83.12399408710218
+    },
+    {
+      "GEOID": "261635223002",
+      "population": 245,
+      "walk_minutes": 11.632609341109237,
+      "within_15": true,
+      "origin_node": 8321485044,
+      "lat": 42.355648,
+      "lon": -83.09782664468631
+    },
+    {
+      "GEOID": "261635137003",
+      "population": 915,
+      "walk_minutes": 26.21919174226711,
+      "within_15": false,
+      "origin_node": 4184324368,
+      "lat": 42.368145,
+      "lon": -82.95313590247933
+    },
+    {
+      "GEOID": "261635189001",
+      "population": 2061,
+      "walk_minutes": 16.911921438185058,
+      "within_15": false,
+      "origin_node": 9753283422,
+      "lat": 42.351938,
+      "lon": -83.04220392219344
+    },
+    {
+      "GEOID": "261635215001",
+      "population": 629,
+      "walk_minutes": 24.210033893574533,
+      "within_15": false,
+      "origin_node": 62597287,
+      "lat": 42.338081,
+      "lon": -83.07297499313725
+    },
+    {
+      "GEOID": "261635231001",
+      "population": 1045,
+      "walk_minutes": 20.187161064888148,
+      "within_15": false,
+      "origin_node": 7697910680,
+      "lat": 42.326233,
+      "lon": -83.09898869295796
+    },
+    {
+      "GEOID": "261635430002",
+      "population": 1008,
+      "walk_minutes": 7.197987970959789,
+      "within_15": true,
+      "origin_node": 3353929161,
+      "lat": 42.405522,
+      "lon": -83.22679439867144
+    },
+    {
+      "GEOID": "261635234001",
+      "population": 1542,
+      "walk_minutes": 7.466839496642374,
+      "within_15": true,
+      "origin_node": 5909007075,
+      "lat": 42.3187165,
+      "lon": -83.09039638441851
+    },
+    {
+      "GEOID": "261635263003",
+      "population": 903,
+      "walk_minutes": 18.170679107426903,
+      "within_15": false,
+      "origin_node": 13664164736,
+      "lat": 42.339733,
+      "lon": -83.13807643243244
+    },
+    {
+      "GEOID": "261635457001",
+      "population": 1211,
+      "walk_minutes": 28.81332540611491,
+      "within_15": false,
+      "origin_node": 6255115366,
+      "lat": 42.33272,
+      "lon": -83.22032241133032
+    },
+    {
+      "GEOID": "261635326002",
+      "population": 1063,
+      "walk_minutes": 16.99380072218948,
+      "within_15": false,
+      "origin_node": 11215959722,
+      "lat": 42.3697115,
+      "lon": -83.0851122243906
+    },
+    {
+      "GEOID": "261635238001",
+      "population": 530,
+      "walk_minutes": 13.429576471393895,
+      "within_15": true,
+      "origin_node": 4310177342,
+      "lat": 42.3032605,
+      "lon": -83.11865360500786
+    },
+    {
+      "GEOID": "261635356001",
+      "population": 373,
+      "walk_minutes": 14.191754404205133,
+      "within_15": true,
+      "origin_node": 11663535102,
+      "lat": 42.355147,
+      "lon": -83.17009203770243
+    },
+    {
+      "GEOID": "261635362001",
+      "population": 648,
+      "walk_minutes": 15.88219014610491,
+      "within_15": false,
+      "origin_node": 5261160746,
+      "lat": 42.408864,
+      "lon": -83.16212968221976
+    },
+    {
+      "GEOID": "261635264002",
+      "population": 441,
+      "walk_minutes": 20.149696322396128,
+      "within_15": false,
+      "origin_node": 8194033348,
+      "lat": 42.342019,
+      "lon": -83.13190454486642
+    },
+    {
+      "GEOID": "261635333002",
+      "population": 466,
+      "walk_minutes": 19.72563814861144,
+      "within_15": false,
+      "origin_node": 7114949794,
+      "lat": 42.3628465,
+      "lon": -83.105124463338
+    },
+    {
+      "GEOID": "261635383001",
+      "population": 1198,
+      "walk_minutes": 32.039540707917105,
+      "within_15": false,
+      "origin_node": 6301747858,
+      "lat": 42.4246075,
+      "lon": -83.1260220286409
+    },
+    {
+      "GEOID": "261635401001",
+      "population": 1504,
+      "walk_minutes": 23.4904128896749,
+      "within_15": false,
+      "origin_node": 5256988967,
+      "lat": 42.4411415,
+      "lon": -83.2040552621593
+    },
+    {
+      "GEOID": "261635408002",
+      "population": 1158,
+      "walk_minutes": 30.747613565260718,
+      "within_15": false,
+      "origin_node": 8231592009,
+      "lat": 42.4406885,
+      "lon": -83.22280419313066
+    },
+    {
+      "GEOID": "261635430001",
+      "population": 799,
+      "walk_minutes": 9.848135746593242,
+      "within_15": true,
+      "origin_node": 8592501863,
+      "lat": 42.4056375,
+      "lon": -83.22099078795014
+    },
+    {
+      "GEOID": "261635342002",
+      "population": 969,
+      "walk_minutes": 15.061643348883967,
+      "within_15": false,
+      "origin_node": 62629540,
+      "lat": 42.3761325,
+      "lon": -83.1517523166998
+    },
+    {
+      "GEOID": "261635383002",
+      "population": 414,
+      "walk_minutes": 36.04727917345278,
+      "within_15": false,
+      "origin_node": 9545321594,
+      "lat": 42.4253835,
+      "lon": -83.1163694684466
+    },
+    {
+      "GEOID": "261635382001",
+      "population": 1002,
+      "walk_minutes": 12.586678569258511,
+      "within_15": true,
+      "origin_node": 62869719,
+      "lat": 42.435305,
+      "lon": -83.13719699579832
+    },
+    {
+      "GEOID": "261635339003",
+      "population": 834,
+      "walk_minutes": 10.430183518988516,
+      "within_15": true,
+      "origin_node": 5351114085,
+      "lat": 42.371751,
+      "lon": -83.07805703769016
+    },
+    {
+      "GEOID": "261639851001",
+      "population": 190,
+      "walk_minutes": 52.336894601619,
+      "within_15": false,
+      "origin_node": 11435889126,
+      "lat": 42.3808695,
+      "lon": -83.05001695249541
+    },
+    {
+      "GEOID": "261635145001",
+      "population": 700,
+      "walk_minutes": 28.215885816788678,
+      "within_15": false,
+      "origin_node": 9443601667,
+      "lat": 42.375333,
+      "lon": -82.99990891733668
+    },
+    {
+      "GEOID": "261635232002",
+      "population": 1770,
+      "walk_minutes": 8.24810143382638,
+      "within_15": true,
+      "origin_node": 62715200,
+      "lat": 42.313742,
+      "lon": -83.10136987772871
+    },
+    {
+      "GEOID": "261635258002",
+      "population": 1637,
+      "walk_minutes": 6.8254075978794315,
+      "within_15": true,
+      "origin_node": 8551924955,
+      "lat": 42.33414,
+      "lon": -83.12603774696005
+    },
+    {
+      "GEOID": "261635208001",
+      "population": 1325,
+      "walk_minutes": 12.472885996716212,
+      "within_15": true,
+      "origin_node": 1224328859,
+      "lat": 42.3243305,
+      "lon": -83.0504768555625
+    },
+    {
+      "GEOID": "261635114001",
+      "population": 1085,
+      "walk_minutes": 17.676483184988967,
+      "within_15": false,
+      "origin_node": 13069551382,
+      "lat": 42.391376,
+      "lon": -83.07867773529412
+    },
+    {
+      "GEOID": "261635362002",
+      "population": 1661,
+      "walk_minutes": 8.662611367539943,
+      "within_15": true,
+      "origin_node": 62897754,
+      "lat": 42.41327,
+      "lon": -83.16449483317503
+    },
+    {
+      "GEOID": "261635211001",
+      "population": 1031,
+      "walk_minutes": 7.430194298581164,
+      "within_15": true,
+      "origin_node": 5909009275,
+      "lat": 42.3222225,
+      "lon": -83.0856666279762
+    },
+    {
+      "GEOID": "261635214001",
+      "population": 838,
+      "walk_minutes": 9.615868641092536,
+      "within_15": true,
+      "origin_node": 11030536805,
+      "lat": 42.330428,
+      "lon": -83.07632967371705
+    },
+    {
+      "GEOID": "261635157001",
+      "population": 1102,
+      "walk_minutes": 17.54688588889232,
+      "within_15": false,
+      "origin_node": 734645180,
+      "lat": 42.357372,
+      "lon": -82.98064092925546
+    },
+    {
+      "GEOID": "261635009001",
+      "population": 2290,
+      "walk_minutes": 3.954261472769305,
+      "within_15": true,
+      "origin_node": 7800920124,
+      "lat": 42.424572,
+      "lon": -82.95312246924195
+    },
+    {
+      "GEOID": "261635008001",
+      "population": 1198,
+      "walk_minutes": 23.554037485957007,
+      "within_15": false,
+      "origin_node": 7794813002,
+      "lat": 42.4260575,
+      "lon": -82.93777100403403
+    },
+    {
+      "GEOID": "261635051001",
+      "population": 1414,
+      "walk_minutes": 17.01938004600733,
+      "within_15": false,
+      "origin_node": 8384145293,
+      "lat": 42.4426575,
+      "lon": -83.01733467261707
+    },
+    {
+      "GEOID": "261635260001",
+      "population": 2093,
+      "walk_minutes": 26.34324506020918,
+      "within_15": false,
+      "origin_node": 364978325,
+      "lat": 42.3256445,
+      "lon": -83.1461944923538
+    },
+    {
+      "GEOID": "261635260002",
+      "population": 1038,
+      "walk_minutes": 15.115116193399228,
+      "within_15": false,
+      "origin_node": 13525444794,
+      "lat": 42.326778,
+      "lon": -83.1381606870604
+    },
+    {
+      "GEOID": "261635317002",
+      "population": 531,
+      "walk_minutes": 16.408086353493704,
+      "within_15": false,
+      "origin_node": 6594804963,
+      "lat": 42.3993415,
+      "lon": -83.11568190728663
+    },
+    {
+      "GEOID": "261635301001",
+      "population": 1101,
+      "walk_minutes": 27.780716984011903,
+      "within_15": false,
+      "origin_node": 4553221520,
+      "lat": 42.406166,
+      "lon": -83.12085616117065
+    },
+    {
+      "GEOID": "261635459002",
+      "population": 2250,
+      "walk_minutes": 18.555465417112234,
+      "within_15": false,
+      "origin_node": 6258988374,
+      "lat": 42.346983,
+      "lon": -83.22098401895335
+    },
+    {
+      "GEOID": "261635044002",
+      "population": 661,
+      "walk_minutes": 12.510375196514829,
+      "within_15": true,
+      "origin_node": 62769182,
+      "lat": 42.4063895,
+      "lon": -82.98929846597737
+    },
+    {
+      "GEOID": "261635106001",
+      "population": 913,
+      "walk_minutes": 3.8243329637470524,
+      "within_15": true,
+      "origin_node": 62666075,
+      "lat": 42.4047435,
+      "lon": -83.0427303832536
+    },
+    {
+      "GEOID": "261635113002",
+      "population": 1213,
+      "walk_minutes": 14.329023196524115,
+      "within_15": true,
+      "origin_node": 62645468,
+      "lat": 42.415476,
+      "lon": -83.04292013976571
+    },
+    {
+      "GEOID": "261635081001",
+      "population": 617,
+      "walk_minutes": 24.215122600489483,
+      "within_15": false,
+      "origin_node": 12299418388,
+      "lat": 42.4431835,
+      "lon": -83.10243004175845
+    },
+    {
+      "GEOID": "261635382002",
+      "population": 749,
+      "walk_minutes": 23.431284101434052,
+      "within_15": false,
+      "origin_node": 10726722367,
+      "lat": 42.435409,
+      "lon": -83.12495009023941
+    },
+    {
+      "GEOID": "261635010002",
+      "population": 1530,
+      "walk_minutes": 10.190011903782167,
+      "within_15": true,
+      "origin_node": 7800920129,
+      "lat": 42.420581,
+      "lon": -82.95611347743628
+    },
+    {
+      "GEOID": "261635011003",
+      "population": 306,
+      "walk_minutes": 20.691601106653415,
+      "within_15": false,
+      "origin_node": 7850822162,
+      "lat": 42.4090225,
+      "lon": -82.96273070494641
+    },
+    {
+      "GEOID": "261635224001",
+      "population": 950,
+      "walk_minutes": 19.40677491332085,
+      "within_15": false,
+      "origin_node": 13368300589,
+      "lat": 42.3610765,
+      "lon": -83.08319536190383
+    },
+    {
+      "GEOID": "261635167001",
+      "population": 752,
+      "walk_minutes": 9.24383456552079,
+      "within_15": true,
+      "origin_node": 9184324673,
+      "lat": 42.3441245,
+      "lon": -83.02255632978724
+    },
+    {
+      "GEOID": "261635170001",
+      "population": 2173,
+      "walk_minutes": 7.266543584339633,
+      "within_15": true,
+      "origin_node": 8914080989,
+      "lat": 42.3417415,
+      "lon": -83.03388728943935
+    },
+    {
+      "GEOID": "261635172002",
+      "population": 623,
+      "walk_minutes": 6.162352466781817,
+      "within_15": true,
+      "origin_node": 4525060341,
+      "lat": 42.3306625,
+      "lon": -83.03541637463829
+    },
+    {
+      "GEOID": "261635173002",
+      "population": 1334,
+      "walk_minutes": 7.4772541346224655,
+      "within_15": true,
+      "origin_node": 3371165371,
+      "lat": 42.3446895,
+      "lon": -83.0533256120914
+    },
+    {
+      "GEOID": "261635202002",
+      "population": 1851,
+      "walk_minutes": 11.882453568277011,
+      "within_15": true,
+      "origin_node": 827240846,
+      "lat": 42.358748,
+      "lon": -83.07070930527993
+    },
+    {
+      "GEOID": "261635218001",
+      "population": 1865,
+      "walk_minutes": 12.279866446484201,
+      "within_15": true,
+      "origin_node": 722875845,
+      "lat": 42.346044,
+      "lon": -83.07122768269281
+    },
+    {
+      "GEOID": "261635258001",
+      "population": 237,
+      "walk_minutes": 6.5862940593414105,
+      "within_15": true,
+      "origin_node": 11381719830,
+      "lat": 42.333207,
+      "lon": -83.13205183727034
+    },
+    {
+      "GEOID": "261635343001",
+      "population": 1086,
+      "walk_minutes": 3.5277054542874624,
+      "within_15": true,
+      "origin_node": 62626901,
+      "lat": 42.3756965,
+      "lon": -83.16224668228762
+    },
+    {
+      "GEOID": "261635344002",
+      "population": 725,
+      "walk_minutes": 14.420474251497842,
+      "within_15": true,
+      "origin_node": 9692083609,
+      "lat": 42.3700365,
+      "lon": -83.15490870246416
+    },
+    {
+      "GEOID": "261635344001",
+      "population": 1175,
+      "walk_minutes": 11.543305561712712,
+      "within_15": true,
+      "origin_node": 8321347156,
+      "lat": 42.368621,
+      "lon": -83.1631678303174
+    },
+    {
+      "GEOID": "261635350002",
+      "population": 771,
+      "walk_minutes": 20.521126469042592,
+      "within_15": false,
+      "origin_node": 8365702936,
+      "lat": 42.362248,
+      "lon": -83.17516421637967
+    },
+    {
+      "GEOID": "261635303001",
+      "population": 756,
+      "walk_minutes": 15.394939858113947,
+      "within_15": false,
+      "origin_node": 11786502960,
+      "lat": 42.398342,
+      "lon": -83.13321229442968
+    },
+    {
+      "GEOID": "261635309002",
+      "population": 320,
+      "walk_minutes": 6.2674488155383905,
+      "within_15": true,
+      "origin_node": 62682807,
+      "lat": 42.3794295,
+      "lon": -83.12669225915033
+    },
+    {
+      "GEOID": "261635309001",
+      "population": 628,
+      "walk_minutes": 9.986363338880633,
+      "within_15": true,
+      "origin_node": 62682809,
+      "lat": 42.377916,
+      "lon": -83.13081885983074
+    },
+    {
+      "GEOID": "261635405001",
+      "population": 1111,
+      "walk_minutes": 27.104805175618555,
+      "within_15": false,
+      "origin_node": 6346265370,
+      "lat": 42.419059,
+      "lon": -83.22406196617183
+    },
+    {
+      "GEOID": "261635431001",
+      "population": 723,
+      "walk_minutes": 17.096805817737526,
+      "within_15": false,
+      "origin_node": 3344782871,
+      "lat": 42.4127225,
+      "lon": -83.22390258794037
+    },
+    {
+      "GEOID": "261635426002",
+      "population": 2063,
+      "walk_minutes": 20.02279985599125,
+      "within_15": false,
+      "origin_node": 8792384283,
+      "lat": 42.3828455,
+      "lon": -83.21308510298354
+    },
+    {
+      "GEOID": "261635437002",
+      "population": 1569,
+      "walk_minutes": 29.389333421286963,
+      "within_15": false,
+      "origin_node": 3350821476,
+      "lat": 42.3871895,
+      "lon": -83.24176453483264
+    },
+    {
+      "GEOID": "261635219001",
+      "population": 1110,
+      "walk_minutes": 16.617342167368395,
+      "within_15": false,
+      "origin_node": 5285216762,
+      "lat": 42.3451555,
+      "lon": -83.07660939768543
+    },
+    {
+      "GEOID": "261635207001",
+      "population": 1003,
+      "walk_minutes": 9.805028046509516,
+      "within_15": true,
+      "origin_node": 2144921528,
+      "lat": 42.333294,
+      "lon": -83.05088710140024
+    },
+    {
+      "GEOID": "261635211002",
+      "population": 502,
+      "walk_minutes": 18.675532929277452,
+      "within_15": false,
+      "origin_node": 62623102,
+      "lat": 42.318356,
+      "lon": -83.07956063034092
+    },
+    {
+      "GEOID": "261635220001",
+      "population": 971,
+      "walk_minutes": 17.258327802281123,
+      "within_15": false,
+      "origin_node": 3763382600,
+      "lat": 42.343224,
+      "lon": -83.07950347249835
+    },
+    {
+      "GEOID": "261635356002",
+      "population": 344,
+      "walk_minutes": 9.94153339282206,
+      "within_15": true,
+      "origin_node": 62776423,
+      "lat": 42.355528,
+      "lon": -83.16492961791498
+    },
+    {
+      "GEOID": "261635004003",
+      "population": 158,
+      "walk_minutes": 16.09705941422278,
+      "within_15": false,
+      "origin_node": 62678483,
+      "lat": 42.424218,
+      "lon": -82.977392829548
+    },
+    {
+      "GEOID": "261635040001",
+      "population": 440,
+      "walk_minutes": 11.746268969879537,
+      "within_15": true,
+      "origin_node": 9386184034,
+      "lat": 42.416404,
+      "lon": -82.9803508421185
+    },
+    {
+      "GEOID": "261635381002",
+      "population": 750,
+      "walk_minutes": 21.32569515221436,
+      "within_15": false,
+      "origin_node": 2428141384,
+      "lat": 42.442068,
+      "lon": -83.12907716931868
+    },
+    {
+      "GEOID": "261635370003",
+      "population": 1072,
+      "walk_minutes": 9.59163349215868,
+      "within_15": true,
+      "origin_node": 62699419,
+      "lat": 42.4039705,
+      "lon": -83.17435090874682
+    },
+    {
+      "GEOID": "261635370001",
+      "population": 1704,
+      "walk_minutes": 14.652869867287555,
+      "within_15": true,
+      "origin_node": 8809315057,
+      "lat": 42.4076125,
+      "lon": -83.17452840996174
+    },
+    {
+      "GEOID": "261635376002",
+      "population": 1245,
+      "walk_minutes": 21.23184061133694,
+      "within_15": false,
+      "origin_node": 8604404373,
+      "lat": 42.41295,
+      "lon": -83.18721036232427
+    },
+    {
+      "GEOID": "261635376003",
+      "population": 1040,
+      "walk_minutes": 11.278983540785479,
+      "within_15": true,
+      "origin_node": 7949364741,
+      "lat": 42.413254,
+      "lon": -83.19676867986828
+    },
+    {
+      "GEOID": "261635408001",
+      "population": 911,
+      "walk_minutes": 20.1882586795005,
+      "within_15": false,
+      "origin_node": 9450331311,
+      "lat": 42.44048,
+      "lon": -83.23259981580429
+    },
+    {
+      "GEOID": "261635410002",
+      "population": 603,
+      "walk_minutes": 11.559059998057185,
+      "within_15": true,
+      "origin_node": 6403332262,
+      "lat": 42.432979,
+      "lon": -83.24716353746473
+    },
+    {
+      "GEOID": "261635435001",
+      "population": 851,
+      "walk_minutes": 15.813544375975344,
+      "within_15": false,
+      "origin_node": 8338736200,
+      "lat": 42.4040275,
+      "lon": -83.24987966325885
+    },
+    {
+      "GEOID": "261635421001",
+      "population": 3169,
+      "walk_minutes": 20.099096641999733,
+      "within_15": false,
+      "origin_node": 8726101089,
+      "lat": 42.4120195,
+      "lon": -83.21379746743601
+    },
+    {
+      "GEOID": "261635228002",
+      "population": 620,
+      "walk_minutes": 21.034125930817776,
+      "within_15": false,
+      "origin_node": 12041842890,
+      "lat": 42.3422225,
+      "lon": -83.10077092255915
+    },
+    {
+      "GEOID": "261635321002",
+      "population": 1552,
+      "walk_minutes": 18.892664091601016,
+      "within_15": false,
+      "origin_node": 13069567318,
+      "lat": 42.3885085,
+      "lon": -83.09367178113382
+    },
+    {
+      "GEOID": "261635220002",
+      "population": 687,
+      "walk_minutes": 10.949979541398529,
+      "within_15": true,
+      "origin_node": 8671900873,
+      "lat": 42.3444125,
+      "lon": -83.08966690480324
+    },
+    {
+      "GEOID": "261635204003",
+      "population": 260,
+      "walk_minutes": 9.83848713092538,
+      "within_15": true,
+      "origin_node": 13659708039,
+      "lat": 42.3492235,
+      "lon": -83.06942053474305
+    },
+    {
+      "GEOID": "261635172001",
+      "population": 1681,
+      "walk_minutes": 10.852977046163032,
+      "within_15": true,
+      "origin_node": 7998554882,
+      "lat": 42.3380935,
+      "lon": -83.04547742976669
+    },
+    {
+      "GEOID": "261635192003",
+      "population": 591,
+      "walk_minutes": 19.47664821448067,
+      "within_15": false,
+      "origin_node": 62635955,
+      "lat": 42.374886,
+      "lon": -83.02513533021391
+    },
+    {
+      "GEOID": "261635190002",
+      "population": 558,
+      "walk_minutes": 17.376697745902824,
+      "within_15": false,
+      "origin_node": 5463547068,
+      "lat": 42.359514,
+      "lon": -83.03725207146758
+    },
+    {
+      "GEOID": "261635225001",
+      "population": 1279,
+      "walk_minutes": 12.434772657906862,
+      "within_15": true,
+      "origin_node": 3866283192,
+      "lat": 42.3419955,
+      "lon": -83.05779792280285
+    },
+    {
+      "GEOID": "261635193001",
+      "population": 725,
+      "walk_minutes": 12.611271345714993,
+      "within_15": true,
+      "origin_node": 62653718,
+      "lat": 42.3669365,
+      "lon": -83.01876710774596
+    },
+    {
+      "GEOID": "261635207004",
+      "population": 387,
+      "walk_minutes": 18.06797623148779,
+      "within_15": false,
+      "origin_node": 3376369870,
+      "lat": 42.3340935,
+      "lon": -83.05876492867435
+    },
+    {
+      "GEOID": "261635318001",
+      "population": 566,
+      "walk_minutes": 10.006960508809058,
+      "within_15": true,
+      "origin_node": 8522610236,
+      "lat": 42.392172,
+      "lon": -83.11590255420204
+    },
+    {
+      "GEOID": "261635058001",
+      "population": 783,
+      "walk_minutes": 37.292808296588206,
+      "within_15": false,
+      "origin_node": 62688407,
+      "lat": 42.4064865,
+      "lon": -83.0316584079019
+    },
+    {
+      "GEOID": "261635279004",
+      "population": 476,
+      "walk_minutes": 27.700330132815118,
+      "within_15": false,
+      "origin_node": 8511031204,
+      "lat": 42.346655,
+      "lon": -83.1227299572411
+    },
+    {
+      "GEOID": "261635026004",
+      "population": 836,
+      "walk_minutes": 19.43088871766178,
+      "within_15": false,
+      "origin_node": 5900480950,
+      "lat": 42.3960795,
+      "lon": -82.96516938647841
+    },
+    {
+      "GEOID": "261635001001",
+      "population": 1053,
+      "walk_minutes": 22.21637327011334,
+      "within_15": false,
+      "origin_node": 62898730,
+      "lat": 42.438554,
+      "lon": -82.95301130272728
+    },
+    {
+      "GEOID": "261635057003",
+      "population": 1093,
+      "walk_minutes": 17.703310678679262,
+      "within_15": false,
+      "origin_node": 9432147763,
+      "lat": 42.3970775,
+      "lon": -83.01771020642605
+    },
+    {
+      "GEOID": "261635409001",
+      "population": 773,
+      "walk_minutes": 10.638914632352426,
+      "within_15": true,
+      "origin_node": 8688552993,
+      "lat": 42.439232,
+      "lon": -83.24472733876692
+    },
+    {
+      "GEOID": "261635412001",
+      "population": 1064,
+      "walk_minutes": 10.495074519776932,
+      "within_15": true,
+      "origin_node": 6346438883,
+      "lat": 42.4192575,
+      "lon": -83.25356528678162
+    },
+    {
+      "GEOID": "261635442002",
+      "population": 756,
+      "walk_minutes": 14.007413310498832,
+      "within_15": true,
+      "origin_node": 63051883,
+      "lat": 42.407491,
+      "lon": -83.25958057944564
+    },
+    {
+      "GEOID": "261635448002",
+      "population": 1013,
+      "walk_minutes": 26.081525450473382,
+      "within_15": false,
+      "origin_node": 7965115521,
+      "lat": 42.3971395,
+      "lon": -83.25103929093079
+    },
+    {
+      "GEOID": "261635401003",
+      "population": 981,
+      "walk_minutes": 36.636519503975144,
+      "within_15": false,
+      "origin_node": 5255059032,
+      "lat": 42.4408575,
+      "lon": -83.21666436454223
+    },
+    {
+      "GEOID": "261635333001",
+      "population": 456,
+      "walk_minutes": 26.767781310188877,
+      "within_15": false,
+      "origin_node": 8520820289,
+      "lat": 42.361305,
+      "lon": -83.10960356447923
+    },
+    {
+      "GEOID": "261635052002",
+      "population": 2429,
+      "walk_minutes": 5.876228242071958,
+      "within_15": true,
+      "origin_node": 62785851,
+      "lat": 42.416345,
+      "lon": -83.00557072881722
+    },
+    {
+      "GEOID": "261635027003",
+      "population": 943,
+      "walk_minutes": 10.55230839494849,
+      "within_15": true,
+      "origin_node": 62600087,
+      "lat": 42.389532,
+      "lon": -82.96395500907042
+    },
+    {
+      "GEOID": "261635027001",
+      "population": 626,
+      "walk_minutes": 9.1538278097124,
+      "within_15": true,
+      "origin_node": 10816603517,
+      "lat": 42.3908855,
+      "lon": -82.95376195507004
+    },
+    {
+      "GEOID": "261635143001",
+      "population": 1576,
+      "walk_minutes": 9.708197007528508,
+      "within_15": true,
+      "origin_node": 62721701,
+      "lat": 42.386352,
+      "lon": -82.99918535978836
+    },
+    {
+      "GEOID": "261635262002",
+      "population": 657,
+      "walk_minutes": 18.27243820155796,
+      "within_15": false,
+      "origin_node": 11387926046,
+      "lat": 42.3334615,
+      "lon": -83.14253084365204
+    },
+    {
+      "GEOID": "261635305001",
+      "population": 921,
+      "walk_minutes": 18.891945511599516,
+      "within_15": false,
+      "origin_node": 7947963183,
+      "lat": 42.382286,
+      "lon": -83.13543335186091
+    },
+    {
+      "GEOID": "261635128001",
+      "population": 1259,
+      "walk_minutes": 21.665064606991564,
+      "within_15": false,
+      "origin_node": 62665902,
+      "lat": 42.376196,
+      "lon": -82.95031607367498
+    },
+    {
+      "GEOID": "261635137001",
+      "population": 1149,
+      "walk_minutes": 32.73736440747921,
+      "within_15": false,
+      "origin_node": 10896190746,
+      "lat": 42.3647965,
+      "lon": -82.94942614944986
+    },
+    {
+      "GEOID": "261635128002",
+      "population": 415,
+      "walk_minutes": 18.500779818204634,
+      "within_15": false,
+      "origin_node": 6003318180,
+      "lat": 42.38066,
+      "lon": -82.96077106495558
+    },
+    {
+      "GEOID": "261635248001",
+      "population": 2077,
+      "walk_minutes": 73.03557509261553,
+      "within_15": false,
+      "origin_node": 62774693,
+      "lat": 42.264156,
+      "lon": -83.16395190400232
+    },
+    {
+      "GEOID": "261635341001",
+      "population": 693,
+      "walk_minutes": 23.918823921531157,
+      "within_15": false,
+      "origin_node": 8503903152,
+      "lat": 42.371777,
+      "lon": -83.14213494513868
+    },
+    {
+      "GEOID": "261635315012",
+      "population": 1253,
+      "walk_minutes": 13.829773544142219,
+      "within_15": true,
+      "origin_node": 5388418028,
+      "lat": 42.387106,
+      "lon": -83.12695724128373
+    },
+    {
+      "GEOID": "261635315011",
+      "population": 146,
+      "walk_minutes": 10.972000050071253,
+      "within_15": true,
+      "origin_node": 6893688726,
+      "lat": 42.3841715,
+      "lon": -83.12118812750262
+    },
+    {
+      "GEOID": "261635242003",
+      "population": 1794,
+      "walk_minutes": 7.886422673856199,
+      "within_15": true,
+      "origin_node": 4377871914,
+      "lat": 42.3094025,
+      "lon": -83.12711191899719
+    },
+    {
+      "GEOID": "261635240011",
+      "population": 1528,
+      "walk_minutes": 7.260004807883506,
+      "within_15": true,
+      "origin_node": 4373154816,
+      "lat": 42.310218,
+      "lon": -83.12062027405366
+    },
+    {
+      "GEOID": "261635259002",
+      "population": 777,
+      "walk_minutes": 4.492576761807703,
+      "within_15": true,
+      "origin_node": 8059952500,
+      "lat": 42.328699,
+      "lon": -83.11461734225892
+    },
+    {
+      "GEOID": "261635254001",
+      "population": 727,
+      "walk_minutes": 22.913519995038286,
+      "within_15": false,
+      "origin_node": 10904523320,
+      "lat": 42.341594,
+      "lon": -83.10989755824525
+    },
+    {
+      "GEOID": "261635246001",
+      "population": 1189,
+      "walk_minutes": 25.782851286085666,
+      "within_15": false,
+      "origin_node": 62740805,
+      "lat": 42.2978265,
+      "lon": -83.11321641326089
+    },
+    {
+      "GEOID": "261635363001",
+      "population": 722,
+      "walk_minutes": 24.08543011029809,
+      "within_15": false,
+      "origin_node": 62606999,
+      "lat": 42.407181,
+      "lon": -83.15529692395106
+    },
+    {
+      "GEOID": "261635364002",
+      "population": 943,
+      "walk_minutes": 8.856742305827142,
+      "within_15": true,
+      "origin_node": 8644167294,
+      "lat": 42.396732,
+      "lon": -83.14507537098459
+    },
+    {
+      "GEOID": "261635396002",
+      "population": 2066,
+      "walk_minutes": 5.704566343761136,
+      "within_15": true,
+      "origin_node": 4846750550,
+      "lat": 42.426944,
+      "lon": -83.19478072505544
+    },
+    {
+      "GEOID": "261635463011",
+      "population": 1658,
+      "walk_minutes": 31.657373265487113,
+      "within_15": false,
+      "origin_node": 7387765072,
+      "lat": 42.3661345,
+      "lon": -83.26355732900538
+    },
+    {
+      "GEOID": "261635470003",
+      "population": 823,
+      "walk_minutes": 8.532972356504255,
+      "within_15": true,
+      "origin_node": 7267314593,
+      "lat": 42.3756125,
+      "lon": -83.24135115482399
+    },
+    {
+      "GEOID": "261635472004",
+      "population": 1518,
+      "walk_minutes": 16.356432568151224,
+      "within_15": false,
+      "origin_node": 6394861371,
+      "lat": 42.3545825,
+      "lon": -83.20663337775423
+    },
+    {
+      "GEOID": "261635456002",
+      "population": 1929,
+      "walk_minutes": 12.006150307806733,
+      "within_15": true,
+      "origin_node": 9291258218,
+      "lat": 42.3392835,
+      "lon": -83.21290385823808
+    },
+    {
+      "GEOID": "261635455003",
+      "population": 2025,
+      "walk_minutes": 13.027631882821979,
+      "within_15": true,
+      "origin_node": 9084767745,
+      "lat": 42.3466625,
+      "lon": -83.20009260536841
+    },
+    {
+      "GEOID": "261635373002",
+      "population": 129,
+      "walk_minutes": 10.645074244787663,
+      "within_15": true,
+      "origin_node": 62842091,
+      "lat": 42.3832795,
+      "lon": -83.18566243540488
+    },
+    {
+      "GEOID": "261635378001",
+      "population": 1038,
+      "walk_minutes": 8.991645246144822,
+      "within_15": true,
+      "origin_node": 62789331,
+      "lat": 42.3904035,
+      "lon": -83.18518840506599
+    },
+    {
+      "GEOID": "261635348003",
+      "population": 510,
+      "walk_minutes": 22.469369926787145,
+      "within_15": false,
+      "origin_node": 8502258818,
+      "lat": 42.3662355,
+      "lon": -83.1443039933556
+    },
+    {
+      "GEOID": "261635361003",
+      "population": 611,
+      "walk_minutes": 19.602824320691134,
+      "within_15": false,
+      "origin_node": 8478627258,
+      "lat": 42.413492,
+      "lon": -83.14336416736083
+    },
+    {
+      "GEOID": "261635358002",
+      "population": 795,
+      "walk_minutes": 23.528455618320464,
+      "within_15": false,
+      "origin_node": 7911701405,
+      "lat": 42.357122,
+      "lon": -83.18956247003354
+    },
+    {
+      "GEOID": "261635347001",
+      "population": 427,
+      "walk_minutes": 8.053878242829114,
+      "within_15": true,
+      "origin_node": 9484617921,
+      "lat": 42.355386,
+      "lon": -83.15528975345207
+    },
+    {
+      "GEOID": "261635348002",
+      "population": 1169,
+      "walk_minutes": 17.646909709721733,
+      "within_15": false,
+      "origin_node": 62850911,
+      "lat": 42.355881,
+      "lon": -83.1464761364754
+    },
+    {
+      "GEOID": "261635261001",
+      "population": 1146,
+      "walk_minutes": 24.96232567130104,
+      "within_15": false,
+      "origin_node": 11374029956,
+      "lat": 42.3336265,
+      "lon": -83.14845496084337
+    },
+    {
+      "GEOID": "261635301002",
+      "population": 1940,
+      "walk_minutes": 30.50337117583181,
+      "within_15": false,
+      "origin_node": 10300988897,
+      "lat": 42.4139075,
+      "lon": -83.12373923379727
+    },
+    {
+      "GEOID": "261635342003",
+      "population": 268,
+      "walk_minutes": 21.261209806391165,
+      "within_15": false,
+      "origin_node": 9568838875,
+      "lat": 42.383187,
+      "lon": -83.1537914469072
+    },
+    {
+      "GEOID": "261635090001",
+      "population": 885,
+      "walk_minutes": 33.01936667984871,
+      "within_15": false,
+      "origin_node": 9451539830,
+      "lat": 42.4294835,
+      "lon": -83.10772853962264
+    },
+    {
+      "GEOID": "261635090002",
+      "population": 269,
+      "walk_minutes": 44.434490013773576,
+      "within_15": false,
+      "origin_node": 9450125798,
+      "lat": 42.4207115,
+      "lon": -83.10458907343124
+    },
+    {
+      "GEOID": "261635090004",
+      "population": 139,
+      "walk_minutes": 45.87605376438403,
+      "within_15": false,
+      "origin_node": 9451539850,
+      "lat": 42.4250535,
+      "lon": -83.09768209128498
+    }
+  ]
+}

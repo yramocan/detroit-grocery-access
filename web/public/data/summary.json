@@ -1,0 +1,64 @@
+{
+  "retrieval_date": "2026-09-17",
+  "walking_speed_mph": 3.0,
+  "headline_threshold_minutes": 15,
+  "total_population": 638635,
+  "residents_within_15": 308758,
+  "residents_outside_15": 329877,
+  "pct_within_15": 48.3,
+  "qualifying_grocery_stores": 84,
+  "median_walk_minutes_pop_weighted": 15.1,
+  "lowest_access_tract": {
+    "tract": "26163500100",
+    "pct_within_15": 0.0,
+    "population": 3896
+  },
+  "highest_access_tract": {
+    "tract": "26163985300",
+    "pct_within_15": 100.0,
+    "population": 309
+  },
+  "bins": [
+    {
+      "bin": "<= 5 min",
+      "population": 15047,
+      "block_groups": 15
+    },
+    {
+      "bin": "<= 10 min",
+      "population": 127934,
+      "block_groups": 116
+    },
+    {
+      "bin": "<= 15 min",
+      "population": 165777,
+      "block_groups": 150
+    },
+    {
+      "bin": "<= 20 min",
+      "population": 134035,
+      "block_groups": 132
+    },
+    {
+      "bin": "> 20 min",
+      "population": 195842,
+      "block_groups": 187
+    },
+    {
+      "bin": "unreachable",
+      "population": 0,
+      "block_groups": 0
+    }
+  ],
+  "assumptions": {
+    "network": "OpenStreetMap pedestrian network via OSMnx",
+    "routing": "Multi-source Dijkstra on walk graph, length-weighted",
+    "population": "ACS 5-year total population at block-group centroids (representative points)",
+    "scope": "City of Detroit municipal boundary"
+  },
+  "limitations": [
+    "Does not measure grocery prices, inventory quality, cultural appropriateness, or store hours reliability.",
+    "Does not include transit, driving, delivery, sidewalk quality, personal safety, weather, or disability-specific travel times.",
+    "Measures geographic pedestrian accessibility, not total food security."
+  ]
+}

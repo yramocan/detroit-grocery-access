@@ -1,0 +1,12 @@
+{
+  "retrieval_date": "2026-09-17",
+  "source": {
+    "name": "City of Detroit Boundary (Census Place)",
+    "url": "https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_26_place_500k.zip",
+    "notes": "U.S. Census cartographic boundary for Michigan places; Detroit GEOID 2622000. ArcGIS Detroit Open Data tried as optional secondary."
+  },
+  "feature_count": 1,
+  "source_url": "https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_26_place_500k.zip",
+  "geoid": "2622000",
+  "note": "Census place boundary for Detroit city (GEOID 2622000)."
+}

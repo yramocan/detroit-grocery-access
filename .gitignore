@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+.env
+.env.local
+
+# Large / reproducible downloads
+data/raw/**/*.zip
+data/raw/**/*_place_*/
+data/processed/network/
+data/processed/census/
+data/processed/detroit/
+data/processed/grocery/
+!data/raw/**/meta.json
+!data/raw/**/*_meta.json
+
+# Node
+web/node_modules/
+web/.next/
+web/out/
+
+# OSMnx cache
+cache/
+*.graphml
+
+# Intermediate analysis copies (canonical demo data lives in web/public/data)
+outputs/*.geojson
+outputs/scenario_base.json
+outputs/tract_accessibility.csv

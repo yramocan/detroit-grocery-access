@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #eef3f6;
+  --foreground: #12202b;
+  --canopy: #1f6b4f;
+  --gap: #b85a2a;
+  --lake: #2a5f7a;
+  --mist: #d5e0e8;
+  --panel: rgba(255, 255, 255, 0.82);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: var(--foreground);
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(42, 95, 122, 0.18), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(31, 107, 79, 0.14), transparent 50%),
+    linear-gradient(160deg, #e8eef3 0%, #eef3f6 45%, #e6edf2 100%);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.maplibregl-popup-content {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 12px 30px rgba(18, 32, 43, 0.18);
+  color: #12202b;
+}
+
+.maplibregl-popup-close-button {
+  font-size: 18px;
+  padding: 4px 8px;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.55;
+  }
+  70% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-rise {
+  animation: rise-in 0.7s ease-out both;
+}
+
+.animate-rise-delay {
+  animation: rise-in 0.8s ease-out 0.12s both;
+}
+
+.scenario-pulse::after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 9999px;
+  border: 2px solid rgba(232, 196, 104, 0.8);
+  animation: pulse-ring 1.6s ease-out infinite;
+}

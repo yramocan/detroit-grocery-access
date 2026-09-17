@@ -1,0 +1,14 @@
+{
+  "retrieval_date": "2026-09-17",
+  "source": {
+    "name": "ACS 5-Year Total Population (B01003)",
+    "api": "https://api.census.gov/data/{year}/acs/acs5",
+    "notes": "U.S. Census Bureau American Community Survey"
+  },
+  "tiger_zip": "tl_2023_26_bg.zip",
+  "population_source": "census_reporter",
+  "block_groups_in_detroit": 738,
+  "inhabited_block_groups": 600,
+  "total_population": 638635,
+  "acs_year_used": "2020-2024"
+}

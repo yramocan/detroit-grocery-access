@@ -1,0 +1,65 @@
+# Detroit 15-Minute Grocery Access — MVP configuration
+# Edit these values to revise analysis assumptions without changing code.
+
+project:
+  name: "Detroit 15-Minute Grocery Access"
+  city: "Detroit"
+  state: "Michigan"
+  retrieval_date: "2026-09-17"
+
+geography:
+  # Primary statistics use City of Detroit municipal boundaries only.
+  # Stores outside the boundary can be included later via include_outside_city_stores.
+  include_outside_city_stores: false
+  outside_store_buffer_meters: 1600  # reserved for future near-boundary stores
+
+walking:
+  speed_mph: 3.0
+  speed_kmh: 4.8
+  # Primary headline threshold (minutes)
+  headline_threshold_minutes: 15
+  # Reporting bins (minutes)
+  thresholds_minutes: [5, 10, 15, 20]
+
+network:
+  network_type: walk
+  # Buffer around Detroit when downloading OSM walk network (meters)
+  download_buffer_meters: 1500
+  # Max search distance when snapping origins/destinations to the network (meters)
+  snap_max_distance_meters: 500
+
+population:
+  # ACS 5-year estimates at block-group resolution
+  acs_year: 2023
+  acs_dataset: "acs/acs5"
+  population_variable: "B01003_001E"
+  # Wayne County, MI FIPS
+  state_fips: "26"
+  county_fips: "163"
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  manual: data/manual
+  outputs: outputs
+
+data_sources:
+  detroit_boundary:
+    name: "City of Detroit Boundary (Census Place)"
+    url: "https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_26_place_500k.zip"
+    notes: "U.S. Census cartographic boundary for Michigan places; Detroit GEOID 2622000. ArcGIS Detroit Open Data tried as optional secondary."
+  census_tiger_block_groups:
+    name: "TIGER/Line Block Groups"
+    url_template: "https://www2.census.gov/geo/tiger/TIGER{year}/BG/tl_{year}_{state}_bg.zip"
+    notes: "U.S. Census Bureau TIGER/Line shapefiles"
+  census_acs:
+    name: "ACS 5-Year Total Population (B01003)"
+    api: "https://api.census.gov/data/{year}/acs/acs5"
+    notes: "U.S. Census Bureau American Community Survey"
+  osm:
+    name: "OpenStreetMap"
+    notes: "Pedestrian network and grocery candidate POIs via OSMnx / Overpass"
+  snap_retailers:
+    name: "USDA SNAP Retailer Locator"
+    notes: "Optional candidate source; MVP uses OSM + manual review as primary"
+

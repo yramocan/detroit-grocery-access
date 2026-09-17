@@ -1,0 +1,12 @@
+{
+  "retrieval_date": "2026-09-17",
+  "source": {
+    "name": "OpenStreetMap",
+    "notes": "Pedestrian network and grocery candidate POIs via OSMnx / Overpass"
+  },
+  "nodes": 157690,
+  "edges": 515150,
+  "crs": "EPSG:32617",
+  "network_type": "walk",
+  "buffer_meters": 1500.0
+}
