@@ -38,7 +38,9 @@ Dataset: `data/manual/qualifying_grocers.csv`
 ## Population
 
 - Source: U.S. Census Bureau American Community Survey (ACS) 5-year estimates
-- Variable: Total population (`B01003_001E`)
+  via Census Reporter (B01003), with optional direct Census API if
+  `CENSUS_API_KEY` is set
+- Variable: Total population (`B01003_001E` / B01003001)
 - Geography: Census **block groups** intersecting Detroit
 - Uninhabited block groups (population 0) are excluded from accessibility
   weighting

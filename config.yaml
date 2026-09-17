@@ -54,8 +54,8 @@ data_sources:
     notes: "U.S. Census Bureau TIGER/Line shapefiles"
   census_acs:
     name: "ACS 5-Year Total Population (B01003)"
-    api: "https://api.census.gov/data/{year}/acs/acs5"
-    notes: "U.S. Census Bureau American Community Survey"
+    api: "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B01003&geo_ids=150|16000US2622000"
+    notes: "Primary: Census Reporter (no key). Optional: official Census API when CENSUS_API_KEY is set."
   osm:
     name: "OpenStreetMap"
     notes: "Pedestrian network and grocery candidate POIs via OSMnx / Overpass"
