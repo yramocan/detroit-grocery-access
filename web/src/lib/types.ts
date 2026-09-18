@@ -8,6 +8,8 @@ export type Summary = {
   pct_within_15: number;
   qualifying_grocery_stores: number;
   median_walk_minutes_pop_weighted: number | null;
+  metric_definition?: string;
+  qualifying_definition?: string;
   lowest_access_tract: {
     tract: string;
     pct_within_15: number;

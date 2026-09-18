@@ -57,8 +57,11 @@
     "scope": "City of Detroit municipal boundary"
   },
   "limitations": [
-    "Does not measure grocery prices, inventory quality, cultural appropriateness, or store hours reliability.",
-    "Does not include transit, driving, delivery, sidewalk quality, personal safety, weather, or disability-specific travel times.",
-    "Measures geographic pedestrian accessibility, not total food security."
-  ]
+    "Qualifying stores are screened for minimum assortment only. Many may still be overpriced, low-quality, or otherwise inadequate for a good grocery trip.",
+    "Does not measure grocery prices, inventory quality in real time, or cultural appropriateness.",
+    "Does not include transit, driving, delivery, sidewalk quality, personal safety, weather, disability-specific travel times, store capacity, or reliable hours.",
+    "Measures geographic pedestrian accessibility to assortment-qualified stores, not total food security."
+  ],
+  "metric_definition": "Share of Detroit residents within a 15-minute walk of a store that meets minimum grocery assortment criteria. This is not a measure of store quality, price affordability, cultural fit, or overall food security.",
+  "qualifying_definition": "minimum_assortment_v1"
 }

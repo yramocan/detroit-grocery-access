@@ -18,8 +18,8 @@ export default function HomePage() {
     <div>
       <div className="mx-auto max-w-[1400px] px-4 pt-6 sm:px-6">
         <p className="animate-rise max-w-2xl text-base text-ink/70 sm:text-lg">
-          An evidence-based map of who in Detroit can walk to a qualifying
-          grocery store in 15 minutes—and where the largest gaps remain.
+          of Detroit residents can reach an assortment-qualified grocery store
+          within a 15-minute walk — not necessarily a good or affordable one.
         </p>
       </div>
       <AccessMap summary={summary} scenario={scenario} />

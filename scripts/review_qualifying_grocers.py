@@ -66,7 +66,15 @@ def main() -> None:
                 "source": "OpenStreetMap + manual review",
                 "qualifies": qualifies,
                 "store_type": store_type,
+                "adequacy_tier": "assortment_only" if qualifies else "excluded",
+                "price_concern": "unknown",
+                "quality_concern": "unknown",
                 "notes": notes,
+                "reviewer_notes": (
+                    "V1 assortment screen only. Quality and price not evaluated."
+                    if qualifies
+                    else notes
+                ),
                 "last_verified": cfg["project"]["retrieval_date"],
             }
         )
@@ -81,7 +89,11 @@ def main() -> None:
             "source": "Manual review",
             "qualifies": False,
             "store_type": "pharmacy",
+            "adequacy_tier": "excluded",
+            "price_concern": "unknown",
+            "quality_concern": "unknown",
             "notes": "Excluded: pharmacy — not a grocery trip destination.",
+            "reviewer_notes": "Excluded: pharmacy — not a grocery trip destination.",
             "last_verified": cfg["project"]["retrieval_date"],
         }
     )

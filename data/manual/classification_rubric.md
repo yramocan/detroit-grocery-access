@@ -6,8 +6,24 @@
 # 15-minute walking access analysis. This file is the human-readable
 # source of truth. Revise it when the classification policy changes.
 #
-# Core standard
-# -------------
+# Important: what V1 does and does not claim
+# -----------------------------------------
+# V1 "qualifying" means minimum grocery assortment for a normal shopping trip.
+#
+# It does NOT mean the store is:
+#   - good quality
+#   - fairly priced / affordable
+#   - culturally appropriate
+#   - clean, well-stocked, or consistently open
+#
+# Detroit has many stores that meet a bare-minimum assortment bar while still
+# being overpriced, low-quality, or otherwise inadequate. Those stores can
+# still qualify under the V1 assortment screen. Treat the headline access
+# metric as geographic assortment access — not food security, and not
+# "access to good groceries."
+#
+# Core assortment standard (V1)
+# -----------------------------
 # A qualifying grocery store should provide meaningful access to a normal
 # household grocery trip, including most of the following:
 #
@@ -19,8 +35,8 @@
 #   - basic household grocery needs (cooking oil, spices, cleaning basics)
 #
 # The store does not need to be a national chain. Independent markets,
-# co-ops, and ethnic/specialty grocers qualify when they can reasonably
-# support a full grocery trip.
+# co-ops, and ethnic/specialty grocers qualify on assortment when they can
+# reasonably support a full grocery trip.
 #
 # Explicit exclusions (MVP)
 # -------------------------
@@ -34,14 +50,34 @@
 #   - specialty shops that cannot reasonably support a normal grocery trip
 #     (e.g., only bakery, only butcher with no staples, only candy/snacks)
 #
+# Planned / optional adequacy fields (not scored automatically in V1)
+# -------------------------------------------------------------------
+# These columns exist so reviewers can later separate "technically a grocery"
+# from "a grocery people can actually rely on":
+#
+#   adequacy_tier:
+#     - assortment_only  → meets V1 assortment bar; quality/price not endorsed
+#     - adequate         → reviewer judges assortment + basic quality/usability OK
+#     - preferred        → stronger option on quality, price, or community value
+#     - excluded         → does not qualify
+#
+#   price_concern: unknown | yes | no
+#   quality_concern: unknown | yes | no
+#   reviewer_notes: free text from human review
+#
+# Do not invent numeric quality or price scores in V1.
+#
 # Borderline cases
 # ----------------
-# Review manually. Document the decision in the `notes` field.
+# Review manually. Document the decision in the `notes` / `reviewer_notes` fields.
 # Examples:
-#   - Large produce markets with staples and protein → usually qualify
+#   - Large produce markets with staples and protein → usually qualify on assortment
 #   - Small corner stores with a produce cooler but mostly packaged snacks → exclude
 #   - Warehouse clubs requiring membership → document; MVP generally excludes
 #     unless clearly used as neighborhood grocery access
+#   - Full supermarket known locally as chronically overpriced or poor produce
+#     → may still qualify on assortment; set price_concern/quality_concern and
+#       keep adequacy_tier=assortment_only until a stricter policy is adopted
 #
 # Process (V1)
 # ------------
@@ -50,17 +86,18 @@
 # 2. Restrict to City of Detroit (with optional near-boundary buffer later).
 # 3. Manually screen by store name and tag against this rubric (exclude liquor,
 #    convenience, pharmacy, warehouse clubs, etc.).
-# 4. Record qualifies / store_type / notes / last_verified in
+# 4. Record qualifies / store_type / adequacy fields / notes / last_verified in
 #    data/manual/qualifying_grocers.csv
 # 5. Do not use automated AI classification in V1.
 #
 # Note: OSM tags are a starting point, not ground truth. Coordinates from OSM
-# are preferred over geocoded guesses when available. Field verification should
-# refine the list before policy use.
+# are preferred over geocoded guesses when available. Field verification of
+# quality and price should refine the list before policy use.
 #
 # Fields in qualifying_grocers.csv
 # --------------------------------
-# id, name, address, latitude, longitude, source, qualifies, store_type, notes, last_verified
+# id, name, address, latitude, longitude, source, qualifies, store_type,
+# adequacy_tier, price_concern, quality_concern, notes, reviewer_notes, last_verified
 #
 # Geographic note
 # ---------------

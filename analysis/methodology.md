@@ -23,13 +23,24 @@ within 15 minutes on foot, and where are the largest access gaps?
 Stores are **manually reviewed** against
 `data/manual/classification_rubric.md`.
 
-In short, a qualifying store should support a normal grocery trip with
+In short, a V1 qualifying store should support a normal grocery trip with
 meaningful access to produce, protein, dairy/substitutes, grains/staples,
 frozen foods, and basic household grocery needs.
 
 Excluded formats include liquor stores, gas stations, convenience stores,
 pharmacies, limited-assortment dollar stores, and specialty shops that cannot
 reasonably support a full grocery trip.
+
+**Critical nuance:** V1 “qualifying” is an **assortment** screen, not an
+endorsement of quality or price. Many Detroit stores meet a bare-minimum
+grocery assortment while remaining overpriced, low-quality, or otherwise
+inadequate. The headline metric is geographic access to assortment-qualified
+stores — not access to good or affordable groceries, and not food security.
+
+Optional fields (`adequacy_tier`, `price_concern`, `quality_concern`,
+`reviewer_notes`) exist so later human review can separate “technically a
+grocery” from “a grocery people can rely on.” V1 does not invent numeric
+quality or price scores.
 
 V1 does **not** use automated AI classification.
 
@@ -93,9 +104,10 @@ See `config.yaml` → `project.retrieval_date` and JSON metadata files under
 
 This MVP does **not** measure:
 
-- grocery prices
-- inventory quality in real time
+- grocery prices or affordability
+- inventory quality (freshness, produce condition, spoilage)
 - cultural appropriateness of inventory
+- whether a store is a *good* place to shop beyond minimum assortment
 - transit accessibility
 - disability-specific travel times
 - sidewalk quality or curb ramps
@@ -105,7 +117,12 @@ This MVP does **not** measure:
 - store capacity
 - reliable store hours beyond basic metadata
 
-**The MVP measures geographic pedestrian accessibility, not total food security.**
+Detroit has many stores that clear a bare-minimum assortment bar while still
+being overpriced or low-quality. Those stores can inflate “access” if the
+metric is read as quality or affordability.
+
+**The MVP measures geographic pedestrian access to assortment-qualified
+stores, not total food security and not access to good groceries.**
 
 ## Stretch: place a grocery store
 

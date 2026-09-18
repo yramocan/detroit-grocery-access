@@ -31,6 +31,10 @@ export type Grocer = {
   store_type: string;
   source: string;
   notes: string;
+  reviewer_notes: string;
+  adequacy_tier: string;
+  price_concern: string;
+  quality_concern: string;
   last_verified: string;
   qualifies: boolean;
   longitude: number;
@@ -56,20 +60,26 @@ function escapeHtml(value: unknown): string {
 
 function grocerPopupHtml(g: Partial<Grocer>): string {
   const typeLabel = (g.store_type || "—").replace(/_/g, " ");
-  return `<div style="font-size:13px;line-height:1.5;max-width:260px">
+  const tier = (g.adequacy_tier || "assortment_only").replace(/_/g, " ");
+  return `<div style="font-size:13px;line-height:1.5;max-width:280px">
     <div style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#1f6b4f;margin-bottom:4px">
-      Qualifying grocery
+      Assortment-qualified grocery
     </div>
     <strong style="font-size:15px">${escapeHtml(g.name || "Grocery store")}</strong>
     ${g.address ? `<div style="margin-top:4px">${escapeHtml(g.address)}</div>` : ""}
     <div style="margin-top:8px;padding-top:8px;border-top:1px solid #d5e0e8">
       <div><span style="color:#456">Classification:</span> ${escapeHtml(typeLabel)}</div>
+      <div><span style="color:#456">Adequacy tier:</span> ${escapeHtml(tier)}</div>
+      <div><span style="color:#456">Price concern:</span> ${escapeHtml(g.price_concern || "unknown")}</div>
+      <div><span style="color:#456">Quality concern:</span> ${escapeHtml(g.quality_concern || "unknown")}</div>
       <div><span style="color:#456">Source:</span> ${escapeHtml(g.source || "—")}</div>
       <div><span style="color:#456">Last verified:</span> ${escapeHtml(g.last_verified || "—")}</div>
     </div>
     ${
-      g.notes
-        ? `<div style="margin-top:8px;color:#456">${escapeHtml(g.notes)}</div>`
+      g.reviewer_notes || g.notes
+        ? `<div style="margin-top:8px;color:#456">${escapeHtml(
+            g.reviewer_notes || g.notes
+          )}</div>`
         : ""
     }
   </div>`;
@@ -87,6 +97,10 @@ function featureToGrocer(f: GeoJSON.Feature): Grocer | null {
     store_type: String(p.store_type ?? ""),
     source: String(p.source ?? ""),
     notes: String(p.notes ?? ""),
+    reviewer_notes: String(p.reviewer_notes ?? ""),
+    adequacy_tier: String(p.adequacy_tier ?? "assortment_only"),
+    price_concern: String(p.price_concern ?? "unknown"),
+    quality_concern: String(p.quality_concern ?? "unknown"),
     last_verified: String(p.last_verified ?? ""),
     qualifies: String(p.qualifies).toLowerCase() !== "false",
     longitude,
@@ -489,9 +503,19 @@ export default function AccessMap({ summary, scenario }: Props) {
             {headline.pct.toFixed(1)}%
           </h1>
           <p className="mt-3 text-sm leading-relaxed text-ink/70">
-            of Detroit residents can reach a qualifying grocery store within a{" "}
+            of Detroit residents can reach an{" "}
+            <strong className="font-semibold text-ink">
+              assortment-qualified
+            </strong>{" "}
+            grocery store within a{" "}
             <strong className="font-semibold text-ink">15-minute walk</strong> on
             the pedestrian network.
+          </p>
+          <p className="mt-3 rounded-xl border border-gap/25 bg-gapSoft/50 px-3 py-2.5 text-xs leading-relaxed text-ink/75">
+            Assortment is not quality or price. Many Detroit stores that meet the
+            minimum grocery bar are still overpriced or low-quality. This map
+            measures walking access to stores that clear that bare-minimum screen
+            — not access to good or affordable food.
           </p>
           <dl className="mt-5 grid grid-cols-1 gap-3 text-sm">
             <div className="flex items-baseline justify-between border-t border-ink/10 pt-3">
@@ -558,6 +582,20 @@ export default function AccessMap({ summary, scenario }: Props) {
                   <dd className="inline">{selected.store_type.replace(/_/g, " ")}</dd>
                 </div>
                 <div>
+                  <dt className="inline text-ink/50">Adequacy tier: </dt>
+                  <dd className="inline">
+                    {(selected.adequacy_tier || "assortment_only").replace(/_/g, " ")}
+                  </dd>
+                </div>
+                <div>
+                  <dt className="inline text-ink/50">Price concern: </dt>
+                  <dd className="inline">{selected.price_concern || "unknown"}</dd>
+                </div>
+                <div>
+                  <dt className="inline text-ink/50">Quality concern: </dt>
+                  <dd className="inline">{selected.quality_concern || "unknown"}</dd>
+                </div>
+                <div>
                   <dt className="inline text-ink/50">Source: </dt>
                   <dd className="inline">{selected.source || "—"}</dd>
                 </div>
@@ -566,8 +604,10 @@ export default function AccessMap({ summary, scenario }: Props) {
                   <dd className="inline">{selected.last_verified || "—"}</dd>
                 </div>
               </dl>
-              {selected.notes && (
-                <p className="mt-2 text-ink/65">{selected.notes}</p>
+              {(selected.reviewer_notes || selected.notes) && (
+                <p className="mt-2 text-ink/65">
+                  {selected.reviewer_notes || selected.notes}
+                </p>
               )}
             </div>
           )}

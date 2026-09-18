@@ -228,6 +228,12 @@ def main() -> None:
         "lowest_access_tract": lowest_tract,
         "highest_access_tract": highest_tract,
         "bins": bin_summary,
+        "metric_definition": (
+            "Share of Detroit residents within a 15-minute walk of a store that meets "
+            "minimum grocery assortment criteria. Not a measure of store quality, "
+            "price affordability, cultural fit, or overall food security."
+        ),
+        "qualifying_definition": "minimum_assortment_v1",
         "assumptions": {
             "network": "OpenStreetMap pedestrian network via OSMnx",
             "routing": "Multi-source Dijkstra on walk graph, length-weighted",
@@ -235,9 +241,10 @@ def main() -> None:
             "scope": "City of Detroit municipal boundary",
         },
         "limitations": [
-            "Does not measure grocery prices, inventory quality, cultural appropriateness, or store hours reliability.",
-            "Does not include transit, driving, delivery, sidewalk quality, personal safety, weather, or disability-specific travel times.",
-            "Measures geographic pedestrian accessibility, not total food security.",
+            "Qualifying stores are screened for minimum assortment only. Many may still be overpriced, low-quality, or otherwise inadequate for a good grocery trip.",
+            "Does not measure grocery prices, inventory quality in real time, or cultural appropriateness.",
+            "Does not include transit, driving, delivery, sidewalk quality, personal safety, weather, disability-specific travel times, store capacity, or reliable hours.",
+            "Measures geographic pedestrian accessibility to assortment-qualified stores, not total food security.",
         ],
     }
 
@@ -249,9 +256,27 @@ def main() -> None:
 
     grocers_out = gpd.GeoDataFrame(store_meta, crs=grocers_p.crs).to_crs(4326)
     # Ensure expected properties for the map
-    for col in ("id", "name", "address", "source", "store_type", "notes", "last_verified"):
+    for col in (
+        "id",
+        "name",
+        "address",
+        "source",
+        "store_type",
+        "adequacy_tier",
+        "price_concern",
+        "quality_concern",
+        "notes",
+        "reviewer_notes",
+        "last_verified",
+    ):
         if col not in grocers_out.columns:
             grocers_out[col] = None
+    if "adequacy_tier" in grocers_out.columns:
+        grocers_out["adequacy_tier"] = grocers_out["adequacy_tier"].fillna("assortment_only")
+    if "price_concern" in grocers_out.columns:
+        grocers_out["price_concern"] = grocers_out["price_concern"].fillna("unknown")
+    if "quality_concern" in grocers_out.columns:
+        grocers_out["quality_concern"] = grocers_out["quality_concern"].fillna("unknown")
     grocers_path = paths["outputs"] / "grocers.geojson"
     grocers_out.to_file(grocers_path, driver="GeoJSON")
 
