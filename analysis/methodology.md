@@ -20,31 +20,37 @@ within 15 minutes on foot, and where are the largest access gaps?
 
 ## Qualifying grocery stores
 
-Stores are **manually reviewed** against
-`data/manual/classification_rubric.md`.
+Primary store list: **Detroit Food Map Initiative** full-line grocery master
+list on DetroitData (ground-truthed; CC BY).
 
-In short, a V1 qualifying store should support a normal grocery trip with
-meaningful access to produce, protein, dairy/substitutes, grains/staples,
-frozen foods, and basic household grocery needs.
+V1 “qualifying” means the store is treated as a full-line grocery that can
+support a normal shopping trip (produce, protein, dairy/substitutes,
+grains/staples, frozen foods, and basic household needs). DFM’s full-line
+definition is stronger evidence than OpenStreetMap shop tags alone.
+
+**Critical nuance:** full-line / assortment status is **not** an endorsement of
+quality or price. Many Detroit stores meet a bare-minimum grocery assortment
+while remaining overpriced, low-quality, or otherwise inadequate. The headline
+metric is geographic access to assortment-qualified stores — not access to good
+or affordable groceries, and not food security.
+
+NEMS-S availability / price / quality score columns exist in
+`qualifying_grocers.csv` as placeholders (`nems_status=pending`) for later join
+from Detroit Food Map / Great Grocer partnership data. Do not invent scores.
+
+Open DFM attributes retained where available: community score, SNAP, WIC,
+Green Grocer / GGP flags, approximate store size.
+
+OpenStreetMap supermarket/grocery POIs are still downloaded for comparison but
+do not drive the headline qualifying set once DFM data is present.
 
 Excluded formats include liquor stores, gas stations, convenience stores,
 pharmacies, limited-assortment dollar stores, and specialty shops that cannot
 reasonably support a full grocery trip.
 
-**Critical nuance:** V1 “qualifying” is an **assortment** screen, not an
-endorsement of quality or price. Many Detroit stores meet a bare-minimum
-grocery assortment while remaining overpriced, low-quality, or otherwise
-inadequate. The headline metric is geographic access to assortment-qualified
-stores — not access to good or affordable groceries, and not food security.
-
-Optional fields (`adequacy_tier`, `price_concern`, `quality_concern`,
-`reviewer_notes`) exist so later human review can separate “technically a
-grocery” from “a grocery people can rely on.” V1 does not invent numeric
-quality or price scores.
-
-V1 does **not** use automated AI classification.
-
-Dataset: `data/manual/qualifying_grocers.csv`
+Dataset: `data/manual/qualifying_grocers.csv`  
+Source download: `scripts/download_dfm_grocers.py`  
+Build step: `scripts/build_qualifying_grocers.py`
 
 ## Population
 

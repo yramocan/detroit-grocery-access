@@ -265,6 +265,19 @@ def main() -> None:
         "adequacy_tier",
         "price_concern",
         "quality_concern",
+        "nems_availability",
+        "nems_price",
+        "nems_quality",
+        "nems_total",
+        "nems_survey_year",
+        "nems_status",
+        "dfm_community_score",
+        "snap",
+        "wic",
+        "green_grocer",
+        "ggp18",
+        "ggp21",
+        "sq_ft_thousands",
         "notes",
         "reviewer_notes",
         "last_verified",
@@ -277,6 +290,8 @@ def main() -> None:
         grocers_out["price_concern"] = grocers_out["price_concern"].fillna("unknown")
     if "quality_concern" in grocers_out.columns:
         grocers_out["quality_concern"] = grocers_out["quality_concern"].fillna("unknown")
+    if "nems_status" in grocers_out.columns:
+        grocers_out["nems_status"] = grocers_out["nems_status"].fillna("pending")
     grocers_path = paths["outputs"] / "grocers.geojson"
     grocers_out.to_file(grocers_path, driver="GeoJSON")
 

@@ -11,7 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = [
     "download_detroit_data.py",
     "download_census_data.py",
+    "download_dfm_grocers.py",
     "download_grocery_candidates.py",
+    "build_qualifying_grocers.py",
     "build_walk_network.py",
     "calculate_accessibility.py",
 ]

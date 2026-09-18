@@ -79,25 +79,31 @@
 #     → may still qualify on assortment; set price_concern/quality_concern and
 #       keep adequacy_tier=assortment_only until a stricter policy is adopted
 #
-# Process (V1)
-# ------------
-# 1. Assemble candidates from OpenStreetMap (shop=supermarket / grocery) and
-#    optional SNAP / business lists.
-# 2. Restrict to City of Detroit (with optional near-boundary buffer later).
-# 3. Manually screen by store name and tag against this rubric (exclude liquor,
-#    convenience, pharmacy, warehouse clubs, etc.).
-# 4. Record qualifies / store_type / adequacy fields / notes / last_verified in
+# Process (V1 / V1.1)
+# ------------------
+# 1. Prefer Detroit Food Map Initiative full-line grocery master list
+#    (DetroitData, ground-truthed) as the primary qualifying set.
+# 2. Optionally retain OpenStreetMap supermarket/grocery candidates for
+#    comparison, but do not let OSM alone drive the headline set.
+# 3. Restrict to City of Detroit (with optional near-boundary buffer later).
+# 4. Record qualifies / store_type / adequacy / NEMS placeholder fields /
+#    DFM attributes / notes / last_verified in
 #    data/manual/qualifying_grocers.csv
-# 5. Do not use automated AI classification in V1.
+# 5. Do not invent NEMS scores. Leave nems_* blank with nems_status=pending
+#    until partnership or published audit scores are available.
+# 6. Do not use automated AI classification in V1.
 #
-# Note: OSM tags are a starting point, not ground truth. Coordinates from OSM
-# are preferred over geocoded guesses when available. Field verification of
-# quality and price should refine the list before policy use.
+# Note: OSM tags are a starting point, not ground truth. DFM full-line status
+# is stronger evidence of assortment. Field verification of quality and price
+# (NEMS / Great Grocer) should refine adequacy before policy use.
 #
 # Fields in qualifying_grocers.csv
 # --------------------------------
 # id, name, address, latitude, longitude, source, qualifies, store_type,
-# adequacy_tier, price_concern, quality_concern, notes, reviewer_notes, last_verified
+# adequacy_tier, price_concern, quality_concern,
+# nems_availability, nems_price, nems_quality, nems_total, nems_survey_year, nems_status,
+# dfm_community_score, snap, wic, green_grocer, ggp18, ggp21, sq_ft_thousands,
+# notes, reviewer_notes, last_verified
 #
 # Geographic note
 # ---------------

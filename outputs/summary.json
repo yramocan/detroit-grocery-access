@@ -3,11 +3,11 @@
   "walking_speed_mph": 3.0,
   "headline_threshold_minutes": 15,
   "total_population": 638635,
-  "residents_within_15": 308758,
-  "residents_outside_15": 329877,
-  "pct_within_15": 48.3,
-  "qualifying_grocery_stores": 84,
-  "median_walk_minutes_pop_weighted": 15.1,
+  "residents_within_15": 289552,
+  "residents_outside_15": 349083,
+  "pct_within_15": 45.3,
+  "qualifying_grocery_stores": 64,
+  "median_walk_minutes_pop_weighted": 16.0,
   "lowest_access_tract": {
     "tract": "26163500100",
     "pct_within_15": 0.0,
@@ -21,28 +21,28 @@
   "bins": [
     {
       "bin": "<= 5 min",
-      "population": 15047,
-      "block_groups": 15
+      "population": 11120,
+      "block_groups": 12
     },
     {
       "bin": "<= 10 min",
-      "population": 127934,
-      "block_groups": 116
+      "population": 108882,
+      "block_groups": 101
     },
     {
       "bin": "<= 15 min",
-      "population": 165777,
-      "block_groups": 150
+      "population": 169550,
+      "block_groups": 142
     },
     {
       "bin": "<= 20 min",
-      "population": 134035,
-      "block_groups": 132
+      "population": 144009,
+      "block_groups": 141
     },
     {
       "bin": "> 20 min",
-      "population": 195842,
-      "block_groups": 187
+      "population": 205074,
+      "block_groups": 204
     },
     {
       "bin": "unreachable",
@@ -50,6 +50,8 @@
       "block_groups": 0
     }
   ],
+  "metric_definition": "Share of Detroit residents within a 15-minute walk of a store that meets minimum grocery assortment criteria. Not a measure of store quality, price affordability, cultural fit, or overall food security.",
+  "qualifying_definition": "minimum_assortment_v1",
   "assumptions": {
     "network": "OpenStreetMap pedestrian network via OSMnx",
     "routing": "Multi-source Dijkstra on walk graph, length-weighted",
@@ -61,7 +63,5 @@
     "Does not measure grocery prices, inventory quality in real time, or cultural appropriateness.",
     "Does not include transit, driving, delivery, sidewalk quality, personal safety, weather, disability-specific travel times, store capacity, or reliable hours.",
     "Measures geographic pedestrian accessibility to assortment-qualified stores, not total food security."
-  ],
-  "metric_definition": "Share of Detroit residents within a 15-minute walk of a store that meets minimum grocery assortment criteria. This is not a measure of store quality, price affordability, cultural fit, or overall food security.",
-  "qualifying_definition": "minimum_assortment_v1"
+  ]
 }

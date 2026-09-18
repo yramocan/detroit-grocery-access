@@ -11,10 +11,18 @@ install:
 data:
 	$(PYTHON) scripts/download_detroit_data.py
 	$(PYTHON) scripts/download_census_data.py
+	$(PYTHON) scripts/download_dfm_grocers.py
 	$(PYTHON) scripts/download_grocery_candidates.py
+	$(PYTHON) scripts/build_qualifying_grocers.py
 
 analyze: data
 	$(PYTHON) scripts/build_walk_network.py
+	$(PYTHON) scripts/calculate_accessibility.py
+	$(PYTHON) scripts/export_web_data.py
+
+qualify:
+	$(PYTHON) scripts/download_dfm_grocers.py
+	$(PYTHON) scripts/build_qualifying_grocers.py
 	$(PYTHON) scripts/calculate_accessibility.py
 	$(PYTHON) scripts/export_web_data.py
 

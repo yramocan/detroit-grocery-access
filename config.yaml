@@ -58,8 +58,12 @@ data_sources:
     notes: "Primary: Census Reporter (no key). Optional: official Census API when CENSUS_API_KEY is set."
   osm:
     name: "OpenStreetMap"
-    notes: "Pedestrian network and grocery candidate POIs via OSMnx / Overpass"
+    notes: "Pedestrian network via OSMnx; grocery POIs retained as secondary candidates only"
   snap_retailers:
     name: "USDA SNAP Retailer Locator"
-    notes: "Optional candidate source; MVP uses OSM + manual review as primary"
+    notes: "Optional candidate source; MVP uses Detroit Food Map full-line list as primary"
+  detroit_food_map:
+    name: "Detroit Food Map Initiative — Full Line Grocery Stores"
+    url: "https://detroitdata.org/dataset/full-line-grocery-stores"
+    notes: "Ground-truthed full-line grocery master list (CC BY). NEMS availability/price/quality scores collected by DFM/Great Grocer are not fully open in this CSV; schema includes placeholders for later join."
 

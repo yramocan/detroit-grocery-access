@@ -65,29 +65,30 @@ export default function MethodologyPage() {
           Qualifying grocery stores
         </h2>
         <p className="text-ink/80">
-          Stores are manually reviewed against the rubric in{" "}
+          Primary store list: Detroit Food Map Initiative full-line grocery
+          master list on DetroitData (ground-truthed). That is stronger evidence
+          of full-line assortment than OpenStreetMap shop tags alone. See{" "}
           <code className="rounded bg-mist px-1.5 py-0.5 text-sm">
             data/manual/classification_rubric.md
           </code>
-          . A V1 qualifying store should support a normal grocery trip with
-          meaningful access to produce, protein, dairy/substitutes,
-          grains/staples, frozen foods, and basic household needs.
+          .
         </p>
         <p className="rounded-xl border border-gap/30 bg-gapSoft/40 px-4 py-3 text-sm text-ink/85">
           <strong>Assortment is not quality or price.</strong> Many Detroit
           stores meet a bare-minimum grocery assortment while still being
-          overpriced, low-quality, or otherwise inadequate. The map counts those
-          stores as qualifying unless a stricter human review later marks them
-          otherwise. The headline percentage is geographic access to
-          assortment-qualified stores — not access to good or affordable
-          groceries.
+          overpriced, low-quality, or otherwise inadequate. NEMS availability /
+          price / quality score fields are reserved in the data model
+          (`nems_status=pending`) for later Detroit Food Map / Great Grocer
+          partnership data — scores are not invented here. The headline
+          percentage is geographic access to full-line / assortment-qualified
+          stores — not access to good or affordable groceries.
         </p>
         <p className="text-ink/80">
-          Excluded formats include liquor stores, gas stations, convenience
-          stores, pharmacies, limited-assortment dollar stores, and specialty
-          shops that cannot reasonably support a full grocery trip. V1 does not
-          use automated AI classification. Candidate locations are assembled
-          from OpenStreetMap, then screened by name and store tag.
+          Open DFM attributes shown when available include community score,
+          SNAP/WIC, and Green Grocer flags. Excluded formats include liquor
+          stores, gas stations, convenience stores, pharmacies,
+          limited-assortment dollar stores, and specialty shops that cannot
+          reasonably support a full grocery trip.
         </p>
       </section>
 

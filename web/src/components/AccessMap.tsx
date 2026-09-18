@@ -35,6 +35,16 @@ export type Grocer = {
   adequacy_tier: string;
   price_concern: string;
   quality_concern: string;
+  nems_availability: string;
+  nems_price: string;
+  nems_quality: string;
+  nems_total: string;
+  nems_survey_year: string;
+  nems_status: string;
+  dfm_community_score: string;
+  snap: string;
+  wic: string;
+  green_grocer: string;
   last_verified: string;
   qualifies: boolean;
   longitude: number;
@@ -61,17 +71,24 @@ function escapeHtml(value: unknown): string {
 function grocerPopupHtml(g: Partial<Grocer>): string {
   const typeLabel = (g.store_type || "—").replace(/_/g, " ");
   const tier = (g.adequacy_tier || "assortment_only").replace(/_/g, " ");
-  return `<div style="font-size:13px;line-height:1.5;max-width:280px">
+  const nemsStatus = g.nems_status || "pending";
+  const nemsLine =
+    nemsStatus === "pending"
+      ? "NEMS scores pending (availability / price / quality)"
+      : `NEMS avail ${g.nems_availability || "—"} · price ${g.nems_price || "—"} · quality ${g.nems_quality || "—"} · total ${g.nems_total || "—"} (${g.nems_survey_year || "year n/a"})`;
+  return `<div style="font-size:13px;line-height:1.5;max-width:300px">
     <div style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#1f6b4f;margin-bottom:4px">
-      Assortment-qualified grocery
+      Full-line grocery (Detroit Food Map)
     </div>
     <strong style="font-size:15px">${escapeHtml(g.name || "Grocery store")}</strong>
     ${g.address ? `<div style="margin-top:4px">${escapeHtml(g.address)}</div>` : ""}
     <div style="margin-top:8px;padding-top:8px;border-top:1px solid #d5e0e8">
       <div><span style="color:#456">Classification:</span> ${escapeHtml(typeLabel)}</div>
       <div><span style="color:#456">Adequacy tier:</span> ${escapeHtml(tier)}</div>
-      <div><span style="color:#456">Price concern:</span> ${escapeHtml(g.price_concern || "unknown")}</div>
-      <div><span style="color:#456">Quality concern:</span> ${escapeHtml(g.quality_concern || "unknown")}</div>
+      <div><span style="color:#456">SNAP / WIC:</span> ${escapeHtml(g.snap || "unknown")} / ${escapeHtml(g.wic || "unknown")}</div>
+      <div><span style="color:#456">Green Grocer:</span> ${escapeHtml(g.green_grocer || "unknown")}</div>
+      <div><span style="color:#456">DFM community score:</span> ${escapeHtml(g.dfm_community_score || "—")}</div>
+      <div><span style="color:#456">NEMS:</span> ${escapeHtml(nemsLine)}</div>
       <div><span style="color:#456">Source:</span> ${escapeHtml(g.source || "—")}</div>
       <div><span style="color:#456">Last verified:</span> ${escapeHtml(g.last_verified || "—")}</div>
     </div>
@@ -101,6 +118,16 @@ function featureToGrocer(f: GeoJSON.Feature): Grocer | null {
     adequacy_tier: String(p.adequacy_tier ?? "assortment_only"),
     price_concern: String(p.price_concern ?? "unknown"),
     quality_concern: String(p.quality_concern ?? "unknown"),
+    nems_availability: String(p.nems_availability ?? ""),
+    nems_price: String(p.nems_price ?? ""),
+    nems_quality: String(p.nems_quality ?? ""),
+    nems_total: String(p.nems_total ?? ""),
+    nems_survey_year: String(p.nems_survey_year ?? ""),
+    nems_status: String(p.nems_status ?? "pending"),
+    dfm_community_score: String(p.dfm_community_score ?? ""),
+    snap: String(p.snap ?? "unknown"),
+    wic: String(p.wic ?? "unknown"),
+    green_grocer: String(p.green_grocer ?? "unknown"),
     last_verified: String(p.last_verified ?? ""),
     qualifies: String(p.qualifies).toLowerCase() !== "false",
     longitude,
@@ -588,12 +615,26 @@ export default function AccessMap({ summary, scenario }: Props) {
                   </dd>
                 </div>
                 <div>
-                  <dt className="inline text-ink/50">Price concern: </dt>
-                  <dd className="inline">{selected.price_concern || "unknown"}</dd>
+                  <dt className="inline text-ink/50">SNAP / WIC: </dt>
+                  <dd className="inline">
+                    {selected.snap || "unknown"} / {selected.wic || "unknown"}
+                  </dd>
                 </div>
                 <div>
-                  <dt className="inline text-ink/50">Quality concern: </dt>
-                  <dd className="inline">{selected.quality_concern || "unknown"}</dd>
+                  <dt className="inline text-ink/50">Green Grocer: </dt>
+                  <dd className="inline">{selected.green_grocer || "unknown"}</dd>
+                </div>
+                <div>
+                  <dt className="inline text-ink/50">DFM community score: </dt>
+                  <dd className="inline">{selected.dfm_community_score || "—"}</dd>
+                </div>
+                <div>
+                  <dt className="inline text-ink/50">NEMS: </dt>
+                  <dd className="inline">
+                    {selected.nems_status === "pending" || !selected.nems_status
+                      ? "pending (availability / price / quality)"
+                      : `avail ${selected.nems_availability || "—"}, price ${selected.nems_price || "—"}, quality ${selected.nems_quality || "—"}`}
+                  </dd>
                 </div>
                 <div>
                   <dt className="inline text-ink/50">Source: </dt>

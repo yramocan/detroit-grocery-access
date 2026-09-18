@@ -82,12 +82,11 @@ python scripts/export_web_data.py
 
 From the committed analysis outputs (`web/public/data/summary.json`):
 
-- **48.3%** of Detroit residents within a 15-minute walk
-- **308,758** residents within / **329,877** outside
-- **84** qualifying grocery stores analyzed
-- Population-weighted median walk time: **15.1 minutes**
+- Qualifying stores come from the **Detroit Food Map** full-line grocery list
+- NEMS availability / price / quality fields are present as **placeholders** pending partnership scores
+- Re-run `make qualify` after refreshing DFM data, or `make analyze` for a full rebuild
 
-Re-run `make analyze` to refresh after revising stores or assumptions.
+See `outputs/summary.json` for the latest citywide percentage after analysis.
 
 ## Qualifying grocery definition
 
